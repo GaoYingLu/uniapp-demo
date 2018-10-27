@@ -1,0 +1,19 @@
+@import "../../../common/vendor.wxss";
+
+.page {
+  padding-top: 60rpx;
+}
+page {
+  background: #efeff4;
+}
+.uni-list {
+  margin-bottom: 30rpx;
+}
+.uni-list-cell {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+swiper {
+  height: 600rpx;
+}

@@ -1,0 +1,6 @@
+@import "../../../common/vendor.wxss";
+
+.uni-input {
+  padding: 15rpx 30rpx;
+  word-break: break-all;
+}

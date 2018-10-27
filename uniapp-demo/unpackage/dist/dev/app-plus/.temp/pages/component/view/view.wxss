@@ -1,0 +1,26 @@
+@import "../../../common/vendor.wxss";
+
+.flex-item {
+  width: 200rpx;
+  height: 300rpx;
+  text-align: center;
+  line-height: 300rpx;
+  font-size: 26rpx;
+}
+.flex-item-V {
+  margin: 0 auto;
+  width: 300rpx;
+  height: 200rpx;
+  text-align: center;
+  line-height: 200rpx;
+}
+.text {
+  margin: 10rpx;
+  padding: 0 20rpx;
+  background-color: #ebebeb;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  color: #cfcfcf;
+  font-size: 26rpx;
+}

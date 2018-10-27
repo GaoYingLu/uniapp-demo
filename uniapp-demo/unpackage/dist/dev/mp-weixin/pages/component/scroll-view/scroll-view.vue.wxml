@@ -1,0 +1,35 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="3655d366">
+  <view class="_view data-v-0802b396">
+    <template data="{{...$root['0'], ...$root[$kk+'oNt-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-0802b396 page-body">
+      <view class="_view data-v-0802b396 page-section">
+        <view class="_view data-v-0802b396 page-section-title">
+          <text class="_text data-v-0802b396">Vertical Scroll\n纵向滚动</text>
+        </view>
+        <view class="_view data-v-0802b396 page-section-spacing">
+          <scroll-view scroll-top="{{scrollTop}}" scroll-y="true" class="_scroll-view data-v-0802b396 scroll-Y" bindscrolltoupper="handleProxy" bindscrolltolower="handleProxy" bindscroll="handleProxy" data-eventid="{{'Zj5-0'}}" data-comkey="{{$k}}">
+            <view id="demo1" class="_view data-v-0802b396 scroll-view-item color1">A</view>
+            <view id="demo2" class="_view data-v-0802b396 scroll-view-item color2">B</view>
+            <view id="demo3" class="_view data-v-0802b396 scroll-view-item color3">C</view>
+          </scroll-view>
+        </view>
+        <view class="_view data-v-0802b396 btn-area">
+          <button bindtap="handleProxy" class="_button data-v-0802b396 page-body-button" type="default" data-eventid="{{'DXI-1'}}" data-comkey="{{$k}}">返回顶部</button>
+        </view>
+      </view>
+      <view class="_view data-v-0802b396 page-section">
+        <view class="_view data-v-0802b396 page-section-title">
+          <text class="_text data-v-0802b396">Horizontal Scroll\n横向滚动</text>
+        </view>
+        <view class="_view data-v-0802b396 page-section-spacing">
+          <scroll-view class="_scroll-view data-v-0802b396 scroll-view_H" scroll-x="true" bindscroll="handleProxy" data-eventid="{{'pOC-2'}}" data-comkey="{{$k}}">
+            <view id="demo1" class="_view data-v-0802b396 scroll-view-item_H color1">A</view>
+            <view id="demo2" class="_view data-v-0802b396 scroll-view-item_H color2">B</view>
+            <view id="demo3" class="_view data-v-0802b396 scroll-view-item_H color3">C</view>
+          </scroll-view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,1 @@
+<import src="/platforms/app-plus/tabbar-nvue/detail.vue.wxml" /><template is="4b498bfb" data="{{ ...$root['0'], $root }}"/>

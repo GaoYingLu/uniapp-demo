@@ -1,0 +1,141 @@
+@import "../../../common/vendor.wxss";
+
+.title {
+  font-size: 15px;
+  line-height: 20px;
+  color: #333333;
+  padding: 15px;
+}
+.city {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+.input-view {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  background-color: #e7e7e7;
+  height: 30px;
+  border-radius: 15px;
+  padding: 0 10px;
+}
+.input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  padding: 0 5px;
+}
+.uni-navbar {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+.uni-navbar-shadow {
+  box-shadow: 0 1px 6px #ccc;
+}
+.uni-navbar.uni-navbar-fixed {
+  position: fixed;
+  z-index: 9;
+}
+.uni-navbar-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  height: 2.75em;
+  line-height: 2.75em;
+  font-size: 16px;
+}
+.uni-navbar-btn {
+  position: relative;
+  width: 4.125em;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  padding: 0 0.125em;
+}
+.uni-navbar-btn-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.uni-navbar-btn-icon-left {
+  margin-left: 0.625em;
+}
+.uni-navbar-btn-icon-right {
+  margin-right: 0.625em;
+}
+.uni-navbar-btn-text {
+  padding: 0 0.25em;
+  overflow: hidden;
+}
+.uni-navbar-btn-left {
+  padding: 0 0 0 0.125em;
+}
+.uni-navbar-btn-right {
+  padding: 0 0.125em 0 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+.uni-navbar-container {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.uni-navbar-container-title {
+  text-align: center;
+  color: #000000;
+  padding: 0 0.3125em;
+  overflow: hidden;
+}
+.uni-status-bar {
+  display: block;
+  width: 100%;
+  height: 20px;
+  height: 25px;
+}

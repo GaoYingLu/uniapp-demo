@@ -1,0 +1,17 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="20e26953">
+  <view class="_view data-v-fc02ba3c">
+    <template data="{{...$root['0'], ...$root[$kk+'4MX-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-fc02ba3c page-body">
+      <view class="_view data-v-fc02ba3c page-section-title">扫码结果</view>
+      <view class="_view data-v-fc02ba3c uni-list">
+        <view class="_view data-v-fc02ba3c uni-cell">
+          <view class="_view data-v-fc02ba3c uni-input">{{result}}</view>
+        </view>
+      </view>
+      <view class="_view data-v-fc02ba3c btn-area">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'4AB-0'}}" data-comkey="{{$k}}" class="_button data-v-fc02ba3c">扫一扫</button>
+      </view>
+    </view>
+  </view>
+</template>

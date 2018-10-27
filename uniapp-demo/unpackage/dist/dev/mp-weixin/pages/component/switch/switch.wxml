@@ -1,0 +1,1 @@
+<import src="/pages/component/switch/switch.vue.wxml" /><template is="01e33b5a" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,9 @@
+@import "../../../common/vendor.wxss";
+
+.page {
+  padding-top: 60rpx;
+}
+.page-body-buttons {
+  margin-top: 50rpx;
+  padding: 0 30rpx;
+}

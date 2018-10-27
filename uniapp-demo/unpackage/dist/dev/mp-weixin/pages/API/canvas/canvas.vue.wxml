@@ -1,0 +1,17 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="546f1352">
+  <view class="_view data-v-2e9271b4">
+    <template data="{{...$root['0'], ...$root[$kk+'tT0-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-2e9271b4 page-body">
+      <view class="_view data-v-2e9271b4 page-section">
+        <canvas class="_canvas data-v-2e9271b4 canvas-element" canvas-id="canvas"></canvas>
+        <scroll-view class="_scroll-view data-v-2e9271b4 canvas-buttons" scroll-y="true">
+          <block wx:key="index" key="{{index}}" wx:for="{{names}}" wx:for-index="index" wx:for-item="name">
+            <button class="_button data-v-2e9271b4 canvas-button" bindtap="handleProxy" data-eventid="{{'l8z-0-'+index}}" data-comkey="{{$k}}">{{name}}</button>
+          </block>
+          <button class="_button data-v-2e9271b4 canvas-button" bindtap="handleProxy" type="primary" data-eventid="{{'IQm-1'}}" data-comkey="{{$k}}">toTempFilePath</button>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</template>

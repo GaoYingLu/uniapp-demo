@@ -1,0 +1,25 @@
+<template name="24d5366d">
+  <view class="_view data-v-4d799e3e">
+    <view class="_view data-v-4d799e3e content">
+      <view class="_view data-v-4d799e3e title">延迟加载的理念：页面初始化时，暂不加载处于屏幕可见区域之外的图片。该方案会有如下几大好处：</view>
+      <view class="_view data-v-4d799e3e ul">
+        <view class="_view data-v-4d799e3e">加快页面渲染速度</view>
+        <view class="_view data-v-4d799e3e">提升页面滚动性能</view>
+        <view class="_view data-v-4d799e3e">默认不下载屏幕外的图片，减少网络流量</view>
+      </view>
+    </view>
+    <view class="_view data-v-4d799e3e uni-list">
+      <view class="_view data-v-4d799e3e uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-4d799e3e uni-media-list">
+          <view class="_view data-v-4d799e3e uni-media-list-logo">
+            <image class="_image data-v-4d799e3e image" lazy-load src="{{item.src}}"></image>
+          </view>
+          <view class="_view data-v-4d799e3e uni-media-list-body">
+            <view class="_view data-v-4d799e3e uni-media-list-text-top">主标题</view>
+            <view class="_view data-v-4d799e3e uni-media-list-text-bottom uni-ellipsis">列表二级标题</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

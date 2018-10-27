@@ -1,0 +1,12 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="cf6fa8a6">
+  <view class="_view data-v-2971e33e page">
+    <template data="{{...$root['0'], ...$root[$kk+'djt-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-2971e33e page-body">
+      <view class="_view data-v-2971e33e page-section-title">
+        <view class="_view data-v-2971e33e">在App端可在pages.json里配置buttons，暂不支持动态改变buttons的样式，使用onNavigationBarButtonTap可监听buttons的点击事件。</view>
+        <view class="_view data-v-2971e33e">在微信小程序端，不支持配置buttons，故按钮不见了。</view>
+      </view>
+    </view>
+  </view>
+</template>

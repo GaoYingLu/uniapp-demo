@@ -1,0 +1,15 @@
+<template name="bab9bc0e">
+  <view class="_view data-v-650e1a4a about">
+    <view class="_view data-v-650e1a4a content">
+      <view style="display:flex;align-items: center;flex-direction: column;" class="_view data-v-650e1a4a">
+        <image src="https://img.cdn.aliyun.dcloud.net.cn/guide/uniapp/app_download.png" bindlongtap="handleProxy" data-eventid="{{'kb5-0'}}" data-comkey="{{$k}}" class="_image data-v-650e1a4a"></image>
+        <text class="_text data-v-650e1a4a">扫码体验uni-app</text>
+      </view>
+      <view class="_view data-v-650e1a4a desc">
+        <text class="_text data-v-650e1a4a code">uni-app</text> 是一个使用
+        <text class="_text data-v-650e1a4a code">Vue.js</text> 开发跨平台应用的前端框架 。 </view>
+      <button type="primary" bindtap="handleProxy" data-eventid="{{'SKO-1'}}" data-comkey="{{$k}}" class="_button data-v-650e1a4a">分享</button>
+    </view>
+    <view class="_view data-v-650e1a4a version"> 当前版本：{{version}} </view>
+  </view>
+</template>

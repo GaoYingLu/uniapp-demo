@@ -1,0 +1,1 @@
+<import src="/platforms/mp-weixin/template-message/template-message.vue.wxml" /><template is="34466376" data="{{ ...$root['0'], $root }}"/>

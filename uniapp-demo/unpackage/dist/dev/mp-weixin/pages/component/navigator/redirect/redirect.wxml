@@ -1,0 +1,1 @@
+<import src="/pages/component/navigator/redirect/redirect.vue.wxml" /><template is="c2936abc" data="{{ ...$root['0'], $root }}"/>

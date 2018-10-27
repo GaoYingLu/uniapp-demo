@@ -1,0 +1,12 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="0df53197">
+  <view class="_view data-v-0c447834">
+    <template data="{{...$root['0'], ...$root[$kk+'iqH-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-0c447834 page-body">
+      <view class="_view data-v-0c447834 btn-area">
+        <button class="_button data-v-0c447834 btn-load" bindtap="handleProxy" data-eventid="{{'nrL-0'}}" data-comkey="{{$k}}">显示 loading 提示框</button>
+        <button bindtap="handleProxy" data-eventid="{{'dvV-1'}}" data-comkey="{{$k}}" class="_button data-v-0c447834">隐藏 loading 提示框</button>
+      </view>
+    </view>
+  </view>
+</template>

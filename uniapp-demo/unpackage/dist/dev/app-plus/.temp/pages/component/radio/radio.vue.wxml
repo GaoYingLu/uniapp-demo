@@ -1,0 +1,28 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="4b4582dc">
+  <view class="_view data-v-39088fe1">
+    <template data="{{...$root['0'], ...$root[$kk+'1B9-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-39088fe1 page-body">
+      <view class="_view data-v-39088fe1 page-section page-section-gap">
+        <view class="_view data-v-39088fe1 page-section-title">默认样式</view>
+        <label class="_label data-v-39088fe1 radio">
+          <radio value="r1" checked="true" class="_radio data-v-39088fe1" />选中 </label>
+        <label class="_label data-v-39088fe1 radio">
+          <radio value="r2" class="_radio data-v-39088fe1" />未选中 </label>
+      </view>
+      <view class="_view data-v-39088fe1 page-section">
+        <view class="_view data-v-39088fe1 page-section-title">推荐展示样式</view>
+        <view class="_view data-v-39088fe1 uni-list">
+          <radio-group bindchange="handleProxy" data-eventid="{{'AS0-0'}}" data-comkey="{{$k}}" class="_radio-group data-v-39088fe1">
+            <label class="_label data-v-39088fe1 uni-list-cell uni-list-cell-pd" wx:key="item.value" key="{{item.value}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+              <view class="_view data-v-39088fe1">
+                <radio value="{{item.value}}" checked="true" class="_radio data-v-39088fe1" />
+              </view>
+              <view class="_view data-v-39088fe1">{{item.name}}</view>
+            </label>
+          </radio-group>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

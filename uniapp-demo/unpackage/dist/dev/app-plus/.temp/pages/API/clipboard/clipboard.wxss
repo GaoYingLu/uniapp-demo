@@ -1,0 +1,5 @@
+@import "../../../common/vendor.wxss";
+
+.uni-list-cell {
+  padding: 0rpx 30rpx;
+}

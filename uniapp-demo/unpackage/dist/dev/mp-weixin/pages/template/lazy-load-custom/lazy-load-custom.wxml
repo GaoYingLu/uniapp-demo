@@ -1,0 +1,1 @@
+<import src="/pages/template/lazy-load-custom/lazy-load-custom.vue.wxml" /><template is="486d16cd" data="{{ ...$root['0'], $root }}"/>

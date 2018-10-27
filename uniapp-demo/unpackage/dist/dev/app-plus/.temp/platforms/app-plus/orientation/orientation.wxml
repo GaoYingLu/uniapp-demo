@@ -1,0 +1,1 @@
+<import src="/platforms/app-plus/orientation/orientation.vue.wxml" /><template is="76acbf7f" data="{{ ...$root['0'], $root }}"/>

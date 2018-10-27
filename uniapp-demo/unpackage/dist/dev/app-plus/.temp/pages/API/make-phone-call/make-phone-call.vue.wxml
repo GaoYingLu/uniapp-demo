@@ -1,0 +1,15 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="c9ddc6de">
+  <view class="_view data-v-cc5f10c0">
+    <template data="{{...$root['0'], ...$root[$kk+'n88-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-cc5f10c0 page-body">
+      <view class="_view data-v-cc5f10c0 page-section">
+        <view class="_view data-v-cc5f10c0 desc">请在下方输入电话号码</view>
+        <input class="_input data-v-cc5f10c0 input" type="number" name="input" bindinput="handleProxy" data-eventid="{{'UDz-0'}}" data-comkey="{{$k}}" />
+        <view class="_view data-v-cc5f10c0 btn-area">
+          <button bindtap="handleProxy" type="primary" disabled="{{disabled}}" data-eventid="{{'AwY-1'}}" data-comkey="{{$k}}" class="_button data-v-cc5f10c0">拨打</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,22 @@
+@import "../../../common/vendor.wxss";
+
+.page-body-info {
+  height: 250rpx;
+}
+.page-body-text-small {
+  font-size: 24rpx;
+  color: #000;
+  margin-bottom: 100rpx;
+}
+.page-body-text-location {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 50rpx;
+}
+.page-body-text-location text {
+  margin: 10rpx;
+}
+.uni-list-cell-left {
+  padding: 0 30rpx;
+}

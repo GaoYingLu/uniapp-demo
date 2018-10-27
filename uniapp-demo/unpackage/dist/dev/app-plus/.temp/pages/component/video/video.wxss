@@ -1,0 +1,15 @@
+@import "../../../common/vendor.wxss";
+
+._button {
+  background-color: #007aff;
+  color: #ffffff;
+}
+.uni-list {
+  margin-top: 40rpx;
+}
+.uni-input {
+  text-align: left;
+}
+.page-section {
+  text-align: center;
+}

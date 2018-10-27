@@ -1,0 +1,23 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="b970618c">
+  <view class="_view data-v-417ea949">
+    <template data="{{...$root['0'], ...$root[$kk+'axc-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-417ea949 page-body">
+      <view class="_view data-v-417ea949 page-section page-section-gap">
+        <view class="_view data-v-417ea949 progress-box">
+          <progress percent="20" show-info stroke-width="3" class="_progress data-v-417ea949" />
+        </view>
+        <view class="_view data-v-417ea949 progress-box">
+          <progress percent="40" active stroke-width="3" class="_progress data-v-417ea949" />
+          <icon class="_icon data-v-417ea949 progress-cancel" type="cancel"></icon>
+        </view>
+        <view class="_view data-v-417ea949 progress-box">
+          <progress percent="60" active stroke-width="3" class="_progress data-v-417ea949" />
+        </view>
+        <view class="_view data-v-417ea949 progress-box">
+          <progress percent="80" color="#10AEFF" active stroke-width="3" class="_progress data-v-417ea949" />
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

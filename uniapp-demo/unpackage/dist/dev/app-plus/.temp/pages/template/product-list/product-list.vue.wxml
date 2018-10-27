@@ -1,0 +1,19 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="b8497826">
+  <view class="_view data-v-d9666a04 page">
+    <template data="{{...$root['0'], ...$root[$kk+'ePu-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-d9666a04 product-list">
+      <view class="_view data-v-d9666a04 product" wx:key="index" key="{{index}}" wx:for="{{productList}}" wx:for-index="index" wx:for-item="product">
+        <view class="_view data-v-d9666a04 image-view">
+          <image wx:if="{{renderImage}}" class="_image data-v-d9666a04 product-image" src="{{product.image}}"></image>
+        </view>
+        <view class="_view data-v-d9666a04 product-title">{{product.title}}</view>
+        <view class="_view data-v-d9666a04 product-price">
+          <text class="_text data-v-d9666a04 product-price-favour">￥{{product.originalPrice}}</text>
+          <text class="_text data-v-d9666a04 product-price-original">￥{{product.favourPrice}}</text>
+          <text class="_text data-v-d9666a04 product-tip">{{product.tip}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,25 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="7dcca36a">
+  <view class="_view data-v-5526e8da">
+    <template data="{{...$root['0'], ...$root[$kk+'Z4H-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-5526e8da page-body">
+      <view class="_view data-v-5526e8da page-section">
+        <view class="_view data-v-5526e8da page-body-info">
+          <view class="_view data-v-5526e8da page-body-title">用户信息</view>
+          <block wx:if="{{hasUserInfo === false}}">
+            <text class="_text data-v-5526e8da page-body-text">未获取</text>
+            <text class="_text data-v-5526e8da page-body-text">点击蓝色按钮可获取用户头像及昵称</text>
+          </block>
+          <block wx:if="{{hasUserInfo === true}}">
+            <image class="_image data-v-5526e8da userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+            <text class="_text data-v-5526e8da userinfo-nickname">{{userInfo.nickName}}</text>
+          </block>
+        </view>
+        <view class="_view data-v-5526e8da btn-area">
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'BGc-0'}}" data-comkey="{{$k}}" class="_button data-v-5526e8da">获取用户信息</button>
+          <button bindtap="handleProxy" data-eventid="{{'cHK-1'}}" data-comkey="{{$k}}" class="_button data-v-5526e8da">清空</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

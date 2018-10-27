@@ -1,0 +1,1 @@
+<import src="/pages/component/form/form.vue.wxml" /><template is="8a7f6ccc" data="{{ ...$root['0'], $root }}"/>

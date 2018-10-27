@@ -1,0 +1,83 @@
+@import "../../../common/vendor.wxss";
+
+view {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 28rpx;
+  width: 100%;
+  height: auto;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+.grace-padding {
+  padding: 2%;
+  width: 96%;
+}
+.grace-comment {
+  padding: 5rpx 0;
+}
+.grace-comment-list {
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding: 10rpx 0;
+  margin: 10rpx 0;
+}
+.grace-comment-face {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 100%;
+  margin-right: 20rpx;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.grace-comment-face image {
+  width: 100%;
+  border-radius: 100%;
+}
+.grace-comment-body {
+  width: 100%;
+}
+.grace-comment-top {
+  line-height: 1.5em;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.grace-comment-top text {
+  color: #0A98D5;
+  font-size: 24rpx;
+}
+.grace-comment-top text:last-child {
+  color: #666666;
+}
+.grace-comment-date {
+  line-height: 1.5em;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.grace-comment-date text {
+  color: #666666;
+  font-size: 24rpx;
+}
+.grace-comment-content {
+  line-height: 1.6em;
+  font-size: 28rpx;
+  padding: 8rpx 0;
+}
+.grace-comment-zan {
+  color: #0A98D5 !important;
+}
+.grace-comment-replay-btn {
+  background: #F4F5F6;
+  font-size: 24rpx;
+  padding: 8rpx 15rpx;
+  border-radius: 30rpx;
+  color: #333 !important;
+  margin: 0 10rpx;
+}

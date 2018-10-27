@@ -1,0 +1,38 @@
+@import "../../../common/vendor.wxss";
+
+.textarea-wrp {
+  padding: 0 20rpx;
+}
+.page-section {
+  margin-bottom: 20rpx;
+}
+.textarea {
+  border: 2rpx solid #D8D8D8;
+  padding: 10rpx;
+  height: 90rpx;
+  width: 690rpx;
+}
+.uni-input {
+  border: 2rpx solid #D8D8D8;
+  padding: 0 10rpx;
+  width: 690rpx;
+}
+.uni-uploader-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+radio-group {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}

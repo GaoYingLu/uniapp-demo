@@ -1,0 +1,6 @@
+<import src="/components/mpvue-wxparse/src/wxParse.vue.wxml" />
+<template name="55ab19b2">
+  <view style="margin-left: 15rpx;margin-right: 15rpx;" class="_view data-v-d0d52910">
+    <template bindpreview="handleProxy" bindnavigate="handleProxy" data-eventid="{{'AwL-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'NT7-0'],$root}}" is="0e8d7b22"></template>
+  </view>
+</template>

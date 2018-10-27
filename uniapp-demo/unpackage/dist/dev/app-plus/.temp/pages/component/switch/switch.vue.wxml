@@ -1,0 +1,28 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="01e33b5a">
+  <view class="_view data-v-62ff74e9">
+    <template data="{{...$root['0'], ...$root[$kk+'AHL-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-62ff74e9 page-body">
+      <view class="_view data-v-62ff74e9 page-section page-section-gap">
+        <view class="_view data-v-62ff74e9 page-section-title">默认样式</view>
+        <view class="_view data-v-62ff74e9 body-view">
+          <switch checked bindchange="handleProxy" data-eventid="{{'2Xl-0'}}" data-comkey="{{$k}}" class="_switch data-v-62ff74e9" />
+          <switch bindchange="handleProxy" data-eventid="{{'qNV-1'}}" data-comkey="{{$k}}" class="_switch data-v-62ff74e9" />
+        </view>
+      </view>
+      <view class="_view data-v-62ff74e9 page-section">
+        <view class="_view data-v-62ff74e9 page-section-title">推荐展示样式</view>
+        <view class="_view data-v-62ff74e9 uni-list">
+          <view class="_view data-v-62ff74e9 uni-list-cell uni-list-cell-pd">
+            <view class="_view data-v-62ff74e9 uni-list-cell-db">开启中</view>
+            <switch checked class="_switch data-v-62ff74e9" />
+          </view>
+          <view class="_view data-v-62ff74e9 uni-list-cell uni-list-cell-pd">
+            <view class="_view data-v-62ff74e9 uni-list-cell-db">关闭</view>
+            <switch class="_switch data-v-62ff74e9" />
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

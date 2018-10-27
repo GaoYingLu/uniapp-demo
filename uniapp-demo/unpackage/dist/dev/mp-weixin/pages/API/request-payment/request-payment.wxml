@@ -1,0 +1,1 @@
+<import src="/pages/API/request-payment/request-payment.vue.wxml" /><template is="69c038e9" data="{{ ...$root['0'], $root }}"/>

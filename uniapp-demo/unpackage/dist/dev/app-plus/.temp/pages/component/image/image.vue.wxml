@@ -1,0 +1,20 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="bca4fd5c">
+  <view class="_view data-v-0058d2a1">
+    <template data="{{...$root['0'], ...$root[$kk+'S3j-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-0058d2a1 page-body">
+      <view class="_view data-v-0058d2a1 page-section page-section-gap">
+        <view class="_view data-v-0058d2a1 page-section-title">Local Image</view>
+        <view class="_view data-v-0058d2a1 page-section-ctn">
+          <image class="_image data-v-0058d2a1 image" src="../../../static/uni@2x.png"></image>
+        </view>
+      </view>
+      <view class="_view data-v-0058d2a1 page-section page-section-gap">
+        <view class="_view data-v-0058d2a1 page-section-title">Internet Image</view>
+        <view class="_view data-v-0058d2a1 page-section-ctn">
+          <image class="_image data-v-0058d2a1 image" src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

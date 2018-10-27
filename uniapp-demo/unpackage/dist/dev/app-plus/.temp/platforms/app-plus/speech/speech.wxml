@@ -1,0 +1,1 @@
+<import src="/platforms/app-plus/speech/speech.vue.wxml" /><template is="422f429d" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,23 @@
+@import "../../../common/vendor.wxss";
+
+.swiper-item {
+  display: block;
+  height: 300rpx;
+  line-height: 300rpx;
+  text-align: center;
+}
+.swiper-list {
+  margin-top: 40rpx;
+  margin-bottom: 0;
+}
+.page-section-title {
+  padding: 0;
+  margin-top: 60rpx;
+  position: relative;
+}
+.info {
+  position: absolute;
+  right: 0;
+  color: #353535;
+  font-size: 30rpx;
+}

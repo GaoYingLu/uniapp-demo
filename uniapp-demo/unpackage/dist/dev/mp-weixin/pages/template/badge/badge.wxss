@@ -1,0 +1,12 @@
+@import "../../../common/vendor.wxss";
+
+.page {
+  padding-top: 60rpx;
+}
+page {
+  background: #efeff4;
+}
+.uni-badge,
+.title {
+  margin: 20rpx;
+}

@@ -1,0 +1,45 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="567f724c">
+  <view class="_view data-v-35dc8069">
+    <template data="{{...$root['0'], ...$root[$kk+'0aM-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-35dc8069 page-body">
+      <view class="_view data-v-35dc8069 page-section page-section-spacing swiper">
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="_swiper data-v-35dc8069">
+          <swiper-item class="_swiper-item data-v-35dc8069">
+            <view class="_view data-v-35dc8069 swiper-item color1">A</view>
+          </swiper-item>
+          <swiper-item class="_swiper-item data-v-35dc8069">
+            <view class="_view data-v-35dc8069 swiper-item color2">B</view>
+          </swiper-item>
+          <swiper-item class="_swiper-item data-v-35dc8069">
+            <view class="_view data-v-35dc8069 swiper-item color3">C</view>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class="_view data-v-35dc8069 page-section swiper-list">
+        <view class="_view data-v-35dc8069 uni-list">
+          <view class="_view data-v-35dc8069 uni-list-cell uni-list-cell-pd">
+            <view class="_view data-v-35dc8069 uni-list-cell-db">指示点</view>
+            <switch checked="{{indicatorDots}}" bindchange="handleProxy" data-eventid="{{'sLF-0'}}" data-comkey="{{$k}}" class="_switch data-v-35dc8069" />
+          </view>
+          <view class="_view data-v-35dc8069 uni-list-cell uni-list-cell-pd">
+            <view class="_view data-v-35dc8069 uni-list-cell-db">自动播放</view>
+            <switch checked="{{autoplay}}" bindchange="handleProxy" data-eventid="{{'UdJ-1'}}" data-comkey="{{$k}}" class="_switch data-v-35dc8069" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-35dc8069 page-section page-section-spacing">
+        <view class="_view data-v-35dc8069 page-section-title">
+          <text class="_text data-v-35dc8069">幻灯片切换时长(ms)</text>
+          <text class="_text data-v-35dc8069 info">{{duration}}</text>
+        </view>
+        <slider bindchange="handleProxy" value="{{duration}}" min="500" max="2000" data-eventid="{{'DFE-2'}}" data-comkey="{{$k}}" class="_slider data-v-35dc8069" />
+        <view class="_view data-v-35dc8069 page-section-title">
+          <text class="_text data-v-35dc8069">自动播放间隔时长(ms)</text>
+          <text class="_text data-v-35dc8069 info">{{interval}}</text>
+        </view>
+        <slider bindchange="handleProxy" value="{{interval}}" min="2000" max="10000" data-eventid="{{'HwP-3'}}" data-comkey="{{$k}}" class="_slider data-v-35dc8069" />
+      </view>
+    </view>
+  </view>
+</template>

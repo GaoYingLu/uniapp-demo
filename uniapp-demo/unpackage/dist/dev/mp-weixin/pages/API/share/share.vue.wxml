@@ -1,0 +1,24 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="257083d2">
+  <view class="_view data-v-843c12b4">
+    <template data="{{...$root['0'], ...$root[$kk+'5eE-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-843c12b4 page-body">
+      <view class="_view data-v-843c12b4 page-section-title">分享内容</view>
+      <view class="_view data-v-843c12b4 page-section">
+        <view class="_view data-v-843c12b4 textarea-wrp">
+          <textarea class="_textarea data-v-843c12b4 textarea" value="{{shareText}}" bindinput="handleProxy" data-eventid="{{'OVa-0'}}" data-comkey="{{$k}}" />
+        </view>
+      </view>
+      <view class="_view data-v-843c12b4 page-section-title">分享图片：</view>
+      <view class="_view data-v-843c12b4 page-section">
+        <view class="_view data-v-843c12b4 uni-uploader-body">
+          <view class="_view data-v-843c12b4 uni-uploader__input-box" wx:if="{{!image}}" bindtap="handleProxy" data-eventid="{{'etS-1'}}" data-comkey="{{$k}}"></view>
+          <image class="_image data-v-843c12b4 uni-uploader__img" wx:if="{{image}}" src="{{image}}"></image>
+        </view>
+      </view>
+      <view class="_view data-v-843c12b4 btn-area">
+        <button type="primary" open-type="share" class="_button data-v-843c12b4">分享</button>
+      </view>
+    </view>
+  </view>
+</template>

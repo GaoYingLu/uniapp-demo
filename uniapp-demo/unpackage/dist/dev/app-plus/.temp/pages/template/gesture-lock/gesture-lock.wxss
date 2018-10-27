@@ -1,0 +1,49 @@
+@import "../../../common/vendor.wxss";
+
+.index-page {
+  box-sizing: border-box;
+  padding-top: 30px;
+  height: 100vh;
+  width: 100vw;
+}
+.index-page .result {
+  text-align: center;
+  margin-top: 30px;
+}
+.gesture-lock.data-v-0527e9c4 {
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.gesture-lock .cycle.data-v-0527e9c4 {
+  box-sizing: border-box;
+  position: absolute;
+  border: 2px solid #66aaff;
+  border-radius: 50%;
+}
+.gesture-lock .cycle.check.data-v-0527e9c4:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 32%;
+  height: 32%;
+  border: 2px solid #66aaff;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.gesture-lock .line.data-v-0527e9c4 {
+  height: 0;
+  border-top: 2px solid #66aaff;
+  position: absolute;
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+}
+.gesture-lock.error .cycle.check.data-v-0527e9c4,
+.gesture-lock.error .cycle.check.data-v-0527e9c4:after,
+.gesture-lock.error .line.data-v-0527e9c4 {
+  border-color: #ffa197;
+}

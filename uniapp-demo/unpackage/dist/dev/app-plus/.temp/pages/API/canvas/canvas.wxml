@@ -1,0 +1,1 @@
+<import src="/pages/API/canvas/canvas.vue.wxml" /><template is="546f1352" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,91 @@
+@import "../../../common/vendor.wxss";
+
+.page {
+  background: #efeff4;
+}
+.title {
+  padding: 20rpx;
+}
+.timeline {
+  margin: 35rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+}
+.timeline-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding-bottom: 20rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.timeline-item .timeline-item-keynode {
+  width: 180rpx;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-right: 20rpx;
+  text-align: right;
+}
+.timeline-item .timeline-item-divider {
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  position: relative;
+  width: 20rpx;
+  height: 20rpx;
+  top: 15rpx;
+  border-radius: 50%;
+  background-color: #bbb;
+}
+.timeline-item-divider::before,
+.timeline-item-divider::after {
+  position: absolute;
+  left: 10rpx;
+  width: 1rpx;
+  height: 100vh;
+  content: '';
+  background: inherit;
+}
+.timeline-item-divider::before {
+  bottom: 100%;
+}
+.timeline-item-divider::after {
+  top: 100%;
+}
+.timeline-last-item .timeline-item-divider:after {
+  display: none;
+}
+.timeline-first-item .timeline-item-divider:before {
+  display: none;
+}
+.timeline-item .timeline-item-content {
+  padding-left: 20rpx;
+}
+.bottom-border::after {
+  position: absolute;
+  left: 40rpx;
+  right: 0;
+  height: 1px;
+  content: '';
+  background-color: #bbb;
+}
+.timeline-last-item .bottom-border::after {
+  display: none;
+}
+.timeline-item-content .datetime {
+  color: #CCCCCC;
+}
+.timeline-last-item .timeline-item-divider {
+  background-color: #1AAD19;
+}

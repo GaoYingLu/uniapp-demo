@@ -1,0 +1,26 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="617d3d97">
+  <view class="_view data-v-4d65cfe6">
+    <template data="{{...$root['0'], ...$root[$kk+'4kT-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-4d65cfe6 page-body">
+      <view class="_view data-v-4d65cfe6 page-section">
+        <view class="_view data-v-4d65cfe6 page-body-info">
+          <text class="_text data-v-4d65cfe6 page-body-text-small">当前位置经纬度</text>
+          <block wx:if="{{hasLocation === false}}">
+            <text class="_text data-v-4d65cfe6 page-body-text">未获取</text>
+          </block>
+          <block wx:if="{{hasLocation === true}}">
+            <view class="_view data-v-4d65cfe6 page-body-text-location">
+              <text class="_text data-v-4d65cfe6">E: {{location.longitude[0]}}°{{location.longitude[1]}}′</text>
+              <text class="_text data-v-4d65cfe6">N: {{location.latitude[0]}}°{{location.latitude[1]}}′</text>
+            </view>
+          </block>
+        </view>
+        <view class="_view data-v-4d65cfe6 btn-area">
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'eif-0'}}" data-comkey="{{$k}}" class="_button data-v-4d65cfe6">获取位置</button>
+          <button bindtap="handleProxy" data-eventid="{{'0QD-1'}}" data-comkey="{{$k}}" class="_button data-v-4d65cfe6">清空</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
