@@ -3,15 +3,15 @@
   <view class="_view data-v-02c3fe48 container">
     <view class="_view data-v-02c3fe48 page-body">
       <scroll-view class="_scroll-view data-v-02c3fe48 nav-left" scroll-y style=" {{'height:' + height + 'px'}}">
-        <view class="_view data-v-02c3fe48 nav-left-item {{index == categoryActive ? 'active' : ''}}" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'OhU-0-'+index}}" data-comkey="{{$k}}" wx:for="{{categoryList}}" wx:for-index="index"
+        <view class="_view data-v-02c3fe48 nav-left-item {{index == categoryActive ? 'active' : ''}}" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'YgG-0-'+index}}" data-comkey="{{$k}}" wx:for="{{categoryList}}" wx:for-index="index"
           wx:for-item="item"> {{item.NAME}} </view>
       </scroll-view>
-      <scroll-view class="_scroll-view data-v-02c3fe48 nav-right" scroll-y scroll-top="{{scrollTop}}" bindscroll="handleProxy" scroll-with-animation data-eventid="{{'czZ-1'}}" data-comkey="{{$k}}" style=" {{'height:' + height + 'px'}}">
+      <scroll-view class="_scroll-view data-v-02c3fe48 nav-right" scroll-y scroll-top="{{scrollTop}}" bindscroll="handleProxy" scroll-with-animation data-eventid="{{'o1i-1'}}" data-comkey="{{$k}}" style=" {{'height:' + height + 'px'}}">
         <view id="{{index==0?'first':''}}" class="_view data-v-02c3fe48 nav-right-item" wx:key="item" key="{{item}}" wx:for="{{subCategoryList}}" wx:for-index="index" wx:for-item="item">
           <image src="{{item.LOGO}}" class="_image data-v-02c3fe48"></image>
           <view class="_view data-v-02c3fe48">{{item.NAME}}</view>
         </view>
-        <template wx:if="{{subCategoryList.length > 1}}" data="{{...$root['0'], ...$root[$kk+'r23-0'],$root}}" is="b74d4bca"></template>
+        <template wx:if="{{subCategoryList.length > 1}}" data="{{...$root['0'], ...$root[$kk+'Odd-0'],$root}}" is="b74d4bca"></template>
       </scroll-view>
     </view>
   </view>

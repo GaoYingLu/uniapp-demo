@@ -1,12 +1,12 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="4cd85ade">
   <view class="_view data-v-d39da0c0">
-    <template data="{{...$root['0'], ...$root[$kk+'tQ4-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'K8z-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-d39da0c0 page-body">
       <view class="_view data-v-d39da0c0 page-section">
         <view class="_view data-v-d39da0c0 page-section-spacing">
-          <button type="primary" bindtap="handleProxy" data-eventid="{{'OWO-0'}}" data-comkey="{{$k}}" class="_button data-v-d39da0c0">监听设备的加速度变化</button>
-          <button type="primary" bindtap="handleProxy" data-eventid="{{'n73-1'}}" data-comkey="{{$k}}" class="_button data-v-d39da0c0">停止监听设备的加速度变化</button>
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'o3F-0'}}" data-comkey="{{$k}}" class="_button data-v-d39da0c0">监听设备的加速度变化</button>
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'m1l-1'}}" data-comkey="{{$k}}" class="_button data-v-d39da0c0">停止监听设备的加速度变化</button>
         </view>
       </view>
       <view class="_view data-v-d39da0c0 page-section">

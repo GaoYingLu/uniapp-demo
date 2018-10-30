@@ -3,8 +3,8 @@
 <template name="7f27fa16">
   <view class="_view data-v-2ddf2a74 container">
     <view class="_view data-v-2ddf2a74 page-body">
-      <template data-eventid="{{'YeQ-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Epy-0'],$root}}" is="61d75fbe"></template>
+      <template data-eventid="{{'tk3-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Bn8-0'],$root}}" is="61d75fbe"></template>
     </view>
-    <template data="{{...$root['0'], ...$root[$kk+'LyE-1'],$root}}" is="b74d4bca"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'JOI-1'],$root}}" is="b74d4bca"></template>
   </view>
 </template>

@@ -5,13 +5,13 @@
   <view class="_view data-v-c790517c uni-column">
     <view class="_view data-v-c790517c content" id="content" style=" {{('height:' + (style.contentViewHeight + 'px') + ';')}}">
       <scroll-view id="scrollview" scroll-y="true" scroll-with-animation="{{true}}" scroll-top="{{scrollTop}}" class="_scroll-view data-v-c790517c" style=" {{('height:' + (style.contentViewHeight + 'px') + ';')}}">
-        <template data="{{...$root['0'], ...$root[$kk+'lIW-0'],$root}}" is="b74d4bca"></template>
-        <template wx:key="index" data="{{...$root['0'], ...$root[$kk+'zes-1-'+index],$root}}" is="52796f76" wx:for="{{messages}}" wx:for-index="index" wx:for-item="message"></template>
+        <template data="{{...$root['0'], ...$root[$kk+'9Po-0'],$root}}" is="b74d4bca"></template>
+        <template wx:key="index" data="{{...$root['0'], ...$root[$kk+'uau-1-'+index],$root}}" is="52796f76" wx:for="{{messages}}" wx:for-index="index" wx:for-item="message"></template>
         <view id="bottom" class="_view data-v-c790517c"></view>
       </scroll-view>
     </view>
     <view class="_view data-v-c790517c foot">
-      <template bindsend-message="handleProxy" bindfocus="handleProxy" data-eventid="{{'2Fn-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'9Bf-2'],$root}}" is="6b913373"></template>
+      <template bindsend-message="handleProxy" bindfocus="handleProxy" data-eventid="{{'LdB-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'utq-2'],$root}}" is="6b913373"></template>
     </view>
   </view>
 </template>

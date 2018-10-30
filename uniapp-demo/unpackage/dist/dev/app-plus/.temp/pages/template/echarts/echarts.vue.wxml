@@ -3,15 +3,15 @@
   <view class="_div data-v-db5d5b18 container">
     <view class="_view data-v-db5d5b18 page-section-title" style="display: block;">
       <text class="_text data-v-db5d5b18">这是uni-app集成mpvue-echarts的图表示例，mpvue-echarts组件的用法参考：</text>
-      <text class="_text data-v-db5d5b18 navigate" bindtap="handleProxy" selectable data-eventid="{{'Egk-0'}}" data-comkey="{{$k}}">https://github.com/F-loat/mpvue-echarts</text>
+      <text class="_text data-v-db5d5b18 navigate" bindtap="handleProxy" selectable data-eventid="{{'tXc-0'}}" data-comkey="{{$k}}">https://github.com/F-loat/mpvue-echarts</text>
     </view>
     <view class="_view data-v-db5d5b18 canvasView">
       <view class="_view data-v-db5d5b18 title">饼图示例</view>
-      <template canvasId="pie" data="{{...$root['0'], ...$root[$kk+'Va7-0'],$root}}" is="2fbb90c2"></template>
+      <template canvasId="pie" data="{{...$root['0'], ...$root[$kk+'XEJ-0'],$root}}" is="2fbb90c2"></template>
     </view>
     <view class="_view data-v-db5d5b18 canvasView">
       <view class="_view data-v-db5d5b18 title">折线图示例</view>
-      <template canvasId="line" data="{{...$root['0'], ...$root[$kk+'ey0-1'],$root}}" is="2fbb90c2"></template>
+      <template canvasId="line" data="{{...$root['0'], ...$root[$kk+'WHr-1'],$root}}" is="2fbb90c2"></template>
     </view>
   </view>
 </template>

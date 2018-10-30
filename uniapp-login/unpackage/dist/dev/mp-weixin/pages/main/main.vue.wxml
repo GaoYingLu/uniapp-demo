@@ -1,17 +1,14 @@
 <template name="7bacb7da">
-  <view class="_view data-v-dbf1bc2a content">
-    <view wx:if="{{userInfo.name}}" class="_view data-v-dbf1bc2a hello">
-      <view class="_view data-v-dbf1bc2a title"> 您好 {{userInfo.name}}，您已成功登录。 </view>
-      <view class="_view data-v-dbf1bc2a ul">
-        <view class="_view data-v-dbf1bc2a">这是 uni-app 带登录模板的示例App首页。</view>
-        <view class="_view data-v-dbf1bc2a">在 “我的” 中点击 “退出” 可以 “注销当前账户”</view>
-      </view>
-    </view>
-    <view wx:else class="_view data-v-dbf1bc2a hello">
-      <view class="_view data-v-dbf1bc2a title"> 您好,游客,本 App 须登录后使用。 </view>
-      <view class="_view data-v-dbf1bc2a ul">
-        <view class="_view data-v-dbf1bc2a">请先登录！</view>
-      </view>
-    </view>
+  <view class="_view data-v-dbf1bc2a index">
+    <scroll-view id="tab-bar" class="_scroll-view data-v-dbf1bc2a swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
+      <block wx:key="tab.id" key="{{tab.id}}" wx:for="{{tabs}}" wx:for-index="index" wx:for-item="tab">
+        <view id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'Rlh-0-'+index}}" data-comkey="{{$k}}" class="_view data-v-dbf1bc2a {{['swiper-tab-list', currentTab == index ? 'on' : '']}}">{{tab.name}}</view>
+      </block>
+    </scroll-view>
+    <swiper current="{{currentTab}}" class="_swiper data-v-dbf1bc2a swiper-box" bindchange="handleProxy" data-eventid="{{'VEF-1'}}" data-comkey="{{$k}}">
+      <block wx:key="index1" key="{{index1}}" wx:for="{{newsitems}}" wx:for-index="index1" wx:for-item="newsitem">
+        <view class="_view data-v-dbf1bc2a tab-list">{{newsitem.id}}-{{newsitem.id}}</view>
+      </block>
+    </swiper>
   </view>
 </template>

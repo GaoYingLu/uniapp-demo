@@ -8,6 +8,14 @@ const login = function (name, password) {
     return request('/v1/app/manage-voice/login', {name: name, password: password});
 }
 
+const getNewsList = function () {
+    return request('/v1/app/manage-voice/list', {type: 'news'});
+}
+
+const getScheduleList = function () {
+    return request('/v1/app/manage-voice/list', {type: 'schedule'});
+}
+
 const setLoginUser = function (userInfo) {
     uni.setStorageSync(USERS_KEY, userInfo);
 }
@@ -21,7 +29,10 @@ const logout = function () {
 }
 
 const request = function (uri, data, method='POST') {
-	console.log(data);console.log(method);
+	var userInfo = getLoginUser();
+	if (userInfo.token) {
+		data.token = userInfo.token;
+	}
   return new Promise(function (reslove, reject) {
 	uni.request({
 		url: config.domain + uri,
@@ -34,7 +45,6 @@ const request = function (uri, data, method='POST') {
 
 		success: response => {
 			var result = response.data;
-			console.log(result);
 			if (result.code != 10000) {
 				if (result.code == 11001){//用户Token失效 重新登录
 					uni.navigateTo({
@@ -60,6 +70,8 @@ const request = function (uri, data, method='POST') {
 
 
 export default {
+	getNewsList,
+	getScheduleList,
     login,
 	logout,
 	setLoginUser,

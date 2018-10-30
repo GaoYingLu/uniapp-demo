@@ -1,7 +1,7 @@
 
       !(function(){
         var uniAppViewReadyCallback = function(){
-          setCssToHead([[2,1],])();
+          setCssToHead([[2,1],],undefined,{path:"./pages/API/set-navigation-bar-title/set-navigation-bar-title.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/API/set-navigation-bar-title/set-navigation-bar-title.wxml') } }));
         }
         if(window.__uniAppViewReady__){

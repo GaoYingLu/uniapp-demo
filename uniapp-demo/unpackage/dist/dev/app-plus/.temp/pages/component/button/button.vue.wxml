@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="4645c19a">
   <view class="_view data-v-b13c09ae">
-    <template data="{{...$root['0'], ...$root[$kk+'IS5-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'1SK-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-b13c09ae page-body">
       <view class="_view data-v-b13c09ae btn-area" id="buttonContainer">
         <button type="primary" class="_button data-v-b13c09ae">页面主操作 Normal</button>

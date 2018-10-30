@@ -3,11 +3,11 @@
     <view class="_view data-v-4326e0ae page-section">
       <view class="_view data-v-4326e0ae page-section-title">movable-view区域小于movable-area</view>
       <movable-area class="_movable-area data-v-4326e0ae">
-        <movable-view x="{{x}}" y="{{y}}" direction="all" bindchange="handleProxy" data-eventid="{{'V6X-0'}}" data-comkey="{{$k}}" class="_movable-view data-v-4326e0ae">text</movable-view>
+        <movable-view x="{{x}}" y="{{y}}" direction="all" bindchange="handleProxy" data-eventid="{{'HHC-0'}}" data-comkey="{{$k}}" class="_movable-view data-v-4326e0ae">text</movable-view>
       </movable-area>
     </view>
     <view class="_view data-v-4326e0ae btn-area">
-      <button bindtap="handleProxy" class="_button data-v-4326e0ae page-body-button" type="default" data-eventid="{{'xQI-1'}}" data-comkey="{{$k}}">click me to move to (30px, 30px)</button>
+      <button bindtap="handleProxy" class="_button data-v-4326e0ae page-body-button" type="default" data-eventid="{{'6mv-1'}}" data-comkey="{{$k}}">click me to move to (30px, 30px)</button>
     </view>
     <view class="_view data-v-4326e0ae page-section">
       <view class="_view data-v-4326e0ae page-section-title">movable-view区域大于movable-area</view>
@@ -42,11 +42,11 @@
     <view class="_view data-v-4326e0ae page-section">
       <view class="_view data-v-4326e0ae page-section-title">可放缩</view>
       <movable-area scale-area class="_movable-area data-v-4326e0ae">
-        <movable-view direction="all" bindscale="handleProxy" scale scale-min="0.5" scale-max="4" scale-value="{{scale}}" data-eventid="{{'PMl-2'}}" data-comkey="{{$k}}" class="_movable-view data-v-4326e0ae">text</movable-view>
+        <movable-view direction="all" bindscale="handleProxy" scale scale-min="0.5" scale-max="4" scale-value="{{scale}}" data-eventid="{{'6fY-2'}}" data-comkey="{{$k}}" class="_movable-view data-v-4326e0ae">text</movable-view>
       </movable-area>
     </view>
     <view class="_view data-v-4326e0ae btn-area">
-      <button bindtap="handleProxy" class="_button data-v-4326e0ae page-body-button" type="default" data-eventid="{{'Wh4-3'}}" data-comkey="{{$k}}">click me to scale to 3.0</button>
+      <button bindtap="handleProxy" class="_button data-v-4326e0ae page-body-button" type="default" data-eventid="{{'mCa-3'}}" data-comkey="{{$k}}">click me to scale to 3.0</button>
     </view>
   </view>
 </template>

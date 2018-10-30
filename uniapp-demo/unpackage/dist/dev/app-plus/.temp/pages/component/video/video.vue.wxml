@@ -1,22 +1,22 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="898b40dc">
   <view class="_view data-v-19e5b0e1">
-    <template data="{{...$root['0'], ...$root[$kk+'Opj-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'WnE-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-19e5b0e1 page-body">
       <view class="_view data-v-19e5b0e1 page-section">
-        <video id="myVideo" src="https://www.dcloud.io/uniapp/wap2appvsnative.mp4" binderror="handleProxy" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls data-eventid="{{'kba-0'}}" data-comkey="{{$k}}" class="_video data-v-19e5b0e1"></video>
+        <video id="myVideo" src="https://www.dcloud.io/uniapp/wap2appvsnative.mp4" binderror="handleProxy" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls data-eventid="{{'M66-0'}}" data-comkey="{{$k}}" class="_video data-v-19e5b0e1"></video>
         <view class="_view data-v-19e5b0e1 uni-list">
           <view class="_view data-v-19e5b0e1 uni-list-cell">
             <view class="_view data-v-19e5b0e1">
               <view class="_view data-v-19e5b0e1 uni-label">弹幕内容</view>
             </view>
             <view class="_view data-v-19e5b0e1 uni-list-cell-db">
-              <input bindblur="handleProxy" class="_input data-v-19e5b0e1 uni-input" type="text" placeholder="在此处输入弹幕内容" data-eventid="{{'U7p-1'}}" data-comkey="{{$k}}" />
+              <input bindblur="handleProxy" class="_input data-v-19e5b0e1 uni-input" type="text" placeholder="在此处输入弹幕内容" data-eventid="{{'vkD-1'}}" data-comkey="{{$k}}" />
             </view>
           </view>
         </view>
         <view class="_view data-v-19e5b0e1 btn-area">
-          <button bindtap="handleProxy" class="_button data-v-19e5b0e1 page-body-button" data-eventid="{{'tle-2'}}" data-comkey="{{$k}}">发送弹幕</button>
+          <button bindtap="handleProxy" class="_button data-v-19e5b0e1 page-body-button" data-eventid="{{'nGM-2'}}" data-comkey="{{$k}}">发送弹幕</button>
         </view>
       </view>
     </view>

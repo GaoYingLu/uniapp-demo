@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="4d6738fa">
   <view class="_view data-v-4fe882dc">
-    <template data="{{...$root['0'], ...$root[$kk+'kfS-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'Ape-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-4fe882dc page-body">
       <view class="_view data-v-4fe882dc page-section">
         <view class="_view data-v-4fe882dc uni-list">
@@ -55,7 +55,7 @@
           </view>
         </view>
         <view class="_view data-v-4fe882dc btn-area">
-          <button type="primary" bindtap="handleProxy" data-eventid="{{'aMe-0'}}" data-comkey="{{$k}}" class="_button data-v-4fe882dc">获取手机系统信息</button>
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'K2q-0'}}" data-comkey="{{$k}}" class="_button data-v-4fe882dc">获取手机系统信息</button>
         </view>
       </view>
     </view>

@@ -2,7 +2,7 @@
 <template name="4ff9f8b3">
   <view class="_view data-v-38c2c2f8 page">
     <view class="_view data-v-38c2c2f8 head">
-      <template bindclickItem="handleProxy" data-eventid="{{'t1L-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'jVa-0'],$root}}" is="5aa43cd1"></template>
+      <template bindclickItem="handleProxy" data-eventid="{{'jY1-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'kW1-0'],$root}}" is="5aa43cd1"></template>
     </view>
     <view class="_view data-v-38c2c2f8 content">
       <view hidden="{{!(current === 0)}}" class="_view data-v-38c2c2f8"> 选项卡1的内容 </view>
@@ -12,7 +12,7 @@
     <view class="_view data-v-38c2c2f8 page-section">
       <view class="_view data-v-38c2c2f8 page-section-title">Style</view>
       <view class="_view data-v-38c2c2f8 uni-list">
-        <radio-group bindchange="handleProxy" data-eventid="{{'0Kf-1'}}" data-comkey="{{$k}}" class="_radio-group data-v-38c2c2f8">
+        <radio-group bindchange="handleProxy" data-eventid="{{'vIJ-1'}}" data-comkey="{{$k}}" class="_radio-group data-v-38c2c2f8">
           <label class="_label data-v-38c2c2f8 uni-list-cell uni-list-cell-pd" wx:key="item.value" key="{{item.value}}" wx:for="{{styles}}" wx:for-index="index" wx:for-item="item"> {{item.text}}
             <radio value="{{item.value}}" checked="{{item.checked}}" class="_radio data-v-38c2c2f8" />
           </label>
@@ -22,7 +22,7 @@
     <view class="_view data-v-38c2c2f8 page-section">
       <view class="_view data-v-38c2c2f8 page-section-title">Color</view>
       <view class="_view data-v-38c2c2f8 uni-list">
-        <radio-group bindchange="handleProxy" data-eventid="{{'gxj-2'}}" data-comkey="{{$k}}" class="_radio-group data-v-38c2c2f8">
+        <radio-group bindchange="handleProxy" data-eventid="{{'7Q0-2'}}" data-comkey="{{$k}}" class="_radio-group data-v-38c2c2f8">
           <label class="_label data-v-38c2c2f8 uni-list-cell uni-list-cell-pd" wx:key="index" key="{{index}}" wx:for="{{colors}}" wx:for-index="index" wx:for-item="item">
             <view class="_view data-v-38c2c2f8 color-tag" style=" {{('background-color:' + item + ';')}}"></view>
             <radio value="{{item}}" checked="{{index === 0}}" class="_radio data-v-38c2c2f8" />

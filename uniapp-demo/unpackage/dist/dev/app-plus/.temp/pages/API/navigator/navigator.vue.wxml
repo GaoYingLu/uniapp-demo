@@ -1,14 +1,14 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="b6e3e5f2">
   <view class="_view data-v-05aa4696">
-    <template data="{{...$root['0'], ...$root[$kk+'0YJ-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'bss-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-05aa4696 page-body">
       <view class="_view data-v-05aa4696 btn-area">
-        <button bindtap="handleProxy" data-eventid="{{'Ra0-0'}}" data-comkey="{{$k}}" class="_button data-v-05aa4696">跳转新页面，并传递数据</button>
-        <button bindtap="handleProxy" data-eventid="{{'gOt-1'}}" data-comkey="{{$k}}" class="_button data-v-05aa4696">返回上一页</button>
-        <button bindtap="handleProxy" data-eventid="{{'f92-2'}}" data-comkey="{{$k}}" class="_button data-v-05aa4696">在当前页面打开</button>
-        <button bindtap="handleProxy" data-eventid="{{'MOT-3'}}" data-comkey="{{$k}}" class="_button data-v-05aa4696">切换到模板选项卡</button>
-        <button bindtap="handleProxy" data-eventid="{{'3AL-4'}}" data-comkey="{{$k}}" class="_button data-v-05aa4696">关闭所有页面，打开首页</button>
+        <button bindtap="handleProxy" data-eventid="{{'J4U-0'}}" data-comkey="{{$k}}" class="_button data-v-05aa4696">跳转新页面，并传递数据</button>
+        <button bindtap="handleProxy" data-eventid="{{'DvP-1'}}" data-comkey="{{$k}}" class="_button data-v-05aa4696">返回上一页</button>
+        <button bindtap="handleProxy" data-eventid="{{'pLT-2'}}" data-comkey="{{$k}}" class="_button data-v-05aa4696">在当前页面打开</button>
+        <button bindtap="handleProxy" data-eventid="{{'Ra2-3'}}" data-comkey="{{$k}}" class="_button data-v-05aa4696">切换到模板选项卡</button>
+        <button bindtap="handleProxy" data-eventid="{{'SLc-4'}}" data-comkey="{{$k}}" class="_button data-v-05aa4696">关闭所有页面，打开首页</button>
       </view>
     </view>
   </view>

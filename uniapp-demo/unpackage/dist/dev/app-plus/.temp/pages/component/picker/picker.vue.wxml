@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="d022fbcc">
   <view class="_view data-v-0dea88ae">
-    <template data="{{...$root['0'], ...$root[$kk+'XoR-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'77p-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-0dea88ae page-body">
       <view class="_view data-v-0dea88ae page-section">
         <view class="_view data-v-0dea88ae page-section-title">地区选择器</view>
@@ -9,7 +9,7 @@
           <view class="_view data-v-0dea88ae uni-list-cell">
             <view class="_view data-v-0dea88ae list-left"> 当前选择 </view>
             <view class="_view data-v-0dea88ae uni-list-cell-db">
-              <picker bindchange="handleProxy" value="{{index}}" range="{{array}}" data-eventid="{{'JAK-0'}}" data-comkey="{{$k}}" class="_picker data-v-0dea88ae">
+              <picker bindchange="handleProxy" value="{{index}}" range="{{array}}" data-eventid="{{'uV9-0'}}" data-comkey="{{$k}}" class="_picker data-v-0dea88ae">
                 <view class="_view data-v-0dea88ae uni-input">{{array[index]}}</view>
               </picker>
             </view>
@@ -20,7 +20,7 @@
           <view class="_view data-v-0dea88ae uni-list-cell">
             <view class="_view data-v-0dea88ae list-left"> 当前选择 </view>
             <view class="_view data-v-0dea88ae uni-list-cell-db">
-              <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="handleProxy" data-eventid="{{'0f0-1'}}" data-comkey="{{$k}}" class="_picker data-v-0dea88ae">
+              <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="handleProxy" data-eventid="{{'e1n-1'}}" data-comkey="{{$k}}" class="_picker data-v-0dea88ae">
                 <view class="_view data-v-0dea88ae uni-input">{{time}}</view>
               </picker>
             </view>
@@ -31,7 +31,7 @@
           <view class="_view data-v-0dea88ae uni-list-cell">
             <view class="_view data-v-0dea88ae list-left"> 当前选择 </view>
             <view class="_view data-v-0dea88ae uni-list-cell-db">
-              <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="handleProxy" data-eventid="{{'lVJ-2'}}" data-comkey="{{$k}}" class="_picker data-v-0dea88ae">
+              <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="handleProxy" data-eventid="{{'LfT-2'}}" data-comkey="{{$k}}" class="_picker data-v-0dea88ae">
                 <view class="_view data-v-0dea88ae uni-input">{{date}}</view>
               </picker>
             </view>

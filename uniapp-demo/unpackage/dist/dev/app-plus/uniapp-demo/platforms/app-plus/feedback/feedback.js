@@ -1,7 +1,7 @@
 
       !(function(){
         var uniAppViewReadyCallback = function(){
-          setCssToHead([[2,1],"body { background-color: #EFEFF4; }\n.",[1],"input-view { font-size: ",[0,28],"; }\n",])();
+          setCssToHead([[2,1],"body { background-color: #EFEFF4; }\n.",[1],"input-view { font-size: ",[0,28],"; }\n",],undefined,{path:"./platforms/app-plus/feedback/feedback.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./platforms/app-plus/feedback/feedback.wxml') } }));
         }
         if(window.__uniAppViewReady__){

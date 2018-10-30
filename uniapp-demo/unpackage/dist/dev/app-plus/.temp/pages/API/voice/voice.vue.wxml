@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="4a28b37d">
   <view class="_view data-v-1ac2ec0c">
-    <template data="{{...$root['0'], ...$root[$kk+'JRR-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'1E2-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-1ac2ec0c page-body">
       <view class="_view data-v-1ac2ec0c page-section">
         <block wx:if="{{recording === false && playing === false && hasRecord === false}}">
@@ -10,7 +10,7 @@
           </view>
           <view class="_view data-v-1ac2ec0c page-body-buttons">
             <view class="_view data-v-1ac2ec0c page-body-button"></view>
-            <view class="_view data-v-1ac2ec0c page-body-button" bindtap="handleProxy" data-eventid="{{'7HE-0'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-1ac2ec0c page-body-button" bindtap="handleProxy" data-eventid="{{'a12-0'}}" data-comkey="{{$k}}">
               <image src="../../../static/record.png" class="_image data-v-1ac2ec0c"></image>
             </view>
             <view class="_view data-v-1ac2ec0c page-body-button"></view>
@@ -22,7 +22,7 @@
           </view>
           <view class="_view data-v-1ac2ec0c page-body-buttons">
             <view class="_view data-v-1ac2ec0c page-body-button"></view>
-            <view class="_view data-v-1ac2ec0c page-body-button" bindtap="handleProxy" data-eventid="{{'AzI-1'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-1ac2ec0c page-body-button" bindtap="handleProxy" data-eventid="{{'8AG-1'}}" data-comkey="{{$k}}">
               <view class="_view data-v-1ac2ec0c button-stop-record"></view>
             </view>
             <view class="_view data-v-1ac2ec0c page-body-button"></view>
@@ -35,10 +35,10 @@
           </view>
           <view class="_view data-v-1ac2ec0c page-body-buttons">
             <view class="_view data-v-1ac2ec0c page-body-button"></view>
-            <view class="_view data-v-1ac2ec0c page-body-button" bindtap="handleProxy" data-eventid="{{'tso-2'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-1ac2ec0c page-body-button" bindtap="handleProxy" data-eventid="{{'eF7-2'}}" data-comkey="{{$k}}">
               <image src="../../../static/play.png" class="_image data-v-1ac2ec0c"></image>
             </view>
-            <view class="_view data-v-1ac2ec0c page-body-button" bindtap="handleProxy" data-eventid="{{'k3S-3'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-1ac2ec0c page-body-button" bindtap="handleProxy" data-eventid="{{'K7L-3'}}" data-comkey="{{$k}}">
               <image src="../../../static/trash.png" class="_image data-v-1ac2ec0c"></image>
             </view>
           </view>
@@ -49,10 +49,10 @@
             <text class="_text data-v-1ac2ec0c time-small">{{formatedRecordTime}}</text>
           </view>
           <view class="_view data-v-1ac2ec0c page-body-buttons">
-            <view class="_view data-v-1ac2ec0c page-body-button" bindtap="handleProxy" data-eventid="{{'E96-4'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-1ac2ec0c page-body-button" bindtap="handleProxy" data-eventid="{{'g1e-4'}}" data-comkey="{{$k}}">
               <image src="../../../static/stop.png" class="_image data-v-1ac2ec0c"></image>
             </view>
-            <view class="_view data-v-1ac2ec0c page-body-button" bindtap="handleProxy" data-eventid="{{'6BV-5'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-1ac2ec0c page-body-button" bindtap="handleProxy" data-eventid="{{'P5L-5'}}" data-comkey="{{$k}}">
               <image src="../../../static/trash.png" class="_image data-v-1ac2ec0c"></image>
             </view>
           </view>

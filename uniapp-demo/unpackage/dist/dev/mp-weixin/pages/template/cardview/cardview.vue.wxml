@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="39a218e6">
   <view class="_view data-v-9285c8c4 page">
-    <template data="{{...$root['0'], ...$root[$kk+'MDb-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'Oya-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-9285c8c4 uni-card">
       <view class="_view data-v-9285c8c4 uni-card-content">
         <view class="_view data-v-9285c8c4 uni-card-content-inner"> 这是一个最简单的卡片视图控件；卡片视图常用来显示完整独立的一段信息，比如一篇文章的预览图、作者信息、点赞数量等 </view>

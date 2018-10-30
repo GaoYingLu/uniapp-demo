@@ -1,13 +1,13 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="76acbf7f">
   <view class="_view data-v-4fd8c650">
-    <template data="{{...$root['0'], ...$root[$kk+'yBl-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'lzC-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-4fd8c650 page-body">
       <view class="_view data-v-4fd8c650 page-section">
         <view class="_view data-v-4fd8c650 page-section-spacing">
-          <button type="primary" bindtap="handleProxy" data-eventid="{{'Huh-0'}}" data-comkey="{{$k}}" class="_button data-v-4fd8c650">获取设备的方向信息</button>
-          <button type="primary" bindtap="handleProxy" data-eventid="{{'axo-1'}}" data-comkey="{{$k}}" class="_button data-v-4fd8c650">监听设备的方向变化</button>
-          <button type="primary" bindtap="handleProxy" data-eventid="{{'mcv-2'}}" data-comkey="{{$k}}" class="_button data-v-4fd8c650">停止监听</button>
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'It8-0'}}" data-comkey="{{$k}}" class="_button data-v-4fd8c650">获取设备的方向信息</button>
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'OKh-1'}}" data-comkey="{{$k}}" class="_button data-v-4fd8c650">监听设备的方向变化</button>
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'1Kc-2'}}" data-comkey="{{$k}}" class="_button data-v-4fd8c650">停止监听</button>
         </view>
       </view>
       <view class="_view data-v-4fd8c650 page-section">

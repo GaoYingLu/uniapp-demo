@@ -2,7 +2,7 @@
 <import src="/components/load-more.vue.wxml" />
 <template name="8b4e4cb2">
   <view class="_view data-v-3a057d10">
-    <template data="{{...$root['0'], ...$root[$kk+'oCg-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'z8e-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-3a057d10 page-body">
       <view class="_view data-v-3a057d10 page-section">
         <view class="_view data-v-3a057d10 page-section-title"> 这是load-more组件使用示例，配置loadingType改变组件状态，配置contentText改变文字内容，配置showImage改变loading时是否显示loading图标，配置color改变文字和loading图标颜色。 </view>
@@ -12,7 +12,7 @@
         <view class="_view data-v-3a057d10 list-view">
           <view class="_view data-v-3a057d10 list-item" wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="value">list - {{value}}</view>
         </view>
-        <template data="{{...$root['0'], ...$root[$kk+'VZO-1'],$root}}" is="805be5ea"></template>
+        <template data="{{...$root['0'], ...$root[$kk+'Spa-1'],$root}}" is="805be5ea"></template>
       </view>
     </view>
   </view>

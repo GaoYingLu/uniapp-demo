@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="9467cfca">
   <view class="_view data-v-49d952aa">
-    <template data="{{...$root['0'], ...$root[$kk+'sAw-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'iLE-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-49d952aa page-body">
       <image wx:if="{{imageSrc}}" src="{{imageSrc}}" mode="center" class="_image data-v-49d952aa"></image>
       <block wx:else>
@@ -9,7 +9,7 @@
           <text class="_text data-v-49d952aa page-body-text"> 点击按钮下载服务端示例图片 </text>
         </view>
         <view class="_view data-v-49d952aa btn-area">
-          <button type="primary" bindtap="handleProxy" data-eventid="{{'VLt-0'}}" data-comkey="{{$k}}" class="_button data-v-49d952aa">下载</button>
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'2Jk-0'}}" data-comkey="{{$k}}" class="_button data-v-49d952aa">下载</button>
         </view>
       </block>
     </view>

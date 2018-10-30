@@ -1,11 +1,11 @@
 <template name="7d9bfca6">
   <view class="_view data-v-c2903084 page">
-    <view class="_view data-v-c2903084 banner" bindtap="handleProxy" data-eventid="{{'lWu-0'}}" data-comkey="{{$k}}">
+    <view class="_view data-v-c2903084 banner" bindtap="handleProxy" data-eventid="{{'QMT-0'}}" data-comkey="{{$k}}">
       <image class="_image data-v-c2903084 banner-img" src="{{banner.cover}}"></image>
       <view class="_view data-v-c2903084 banner-title">{{banner.title}}</view>
     </view>
     <view class="_view data-v-c2903084 uni-list">
-      <view class="_view data-v-c2903084 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'QbU-1-'+key}}" data-comkey="{{$k}}" wx:for="{{listData}}" wx:for-index="key" wx:for-item="value">
+      <view class="_view data-v-c2903084 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'KDq-1-'+key}}" data-comkey="{{$k}}" wx:for="{{listData}}" wx:for-index="key" wx:for-item="value">
         <view class="_view data-v-c2903084 uni-media-list">
           <image class="_image data-v-c2903084 uni-media-list-logo" src="{{value.cover}}"></image>
           <view class="_view data-v-c2903084 uni-media-list-body">

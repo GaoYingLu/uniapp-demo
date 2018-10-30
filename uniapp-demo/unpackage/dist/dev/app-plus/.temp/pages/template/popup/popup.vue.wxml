@@ -1,8 +1,8 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="24f9b3c7">
   <view class="_view data-v-28077c98 page">
-    <template data="{{...$root['0'], ...$root[$kk+'1Ml-0'],$root}}" is="4a58128d"></template>
-    <view class="_view data-v-28077c98 mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'hVr-0'}}" data-comkey="{{$k}}"></view>
+    <template data="{{...$root['0'], ...$root[$kk+'IBC-0'],$root}}" is="4a58128d"></template>
+    <view class="_view data-v-28077c98 mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'R3O-0'}}" data-comkey="{{$k}}"></view>
     <view class="_view data-v-28077c98 popup popup-middle" hidden="{{!(showState.middle)}}">
       <view class="_view data-v-28077c98 desc">
         <text class="_text data-v-28077c98">Hello</text>
@@ -15,9 +15,9 @@
       <text class="_text data-v-28077c98">底部 popup</text>
     </view>
     <view class="_view data-v-28077c98 btn-row">
-      <button class="_button data-v-28077c98 btn" type="button" bindtap="handleProxy" data-eventid="{{'Xzt-1'}}" data-comkey="{{$k}}">弹出 popup</button>
-      <button class="_button data-v-28077c98 btn" type="button" bindtap="handleProxy" data-position="top" data-eventid="{{'9cy-2'}}" data-comkey="{{$k}}">顶部弹出 popup</button>
-      <button class="_button data-v-28077c98 btn" type="button" bindtap="handleProxy" data-position="bottom" data-eventid="{{'g4Z-3'}}" data-comkey="{{$k}}">底部弹出 popup</button>
+      <button class="_button data-v-28077c98 btn" type="button" bindtap="handleProxy" data-eventid="{{'gui-1'}}" data-comkey="{{$k}}">弹出 popup</button>
+      <button class="_button data-v-28077c98 btn" type="button" bindtap="handleProxy" data-position="top" data-eventid="{{'07H-2'}}" data-comkey="{{$k}}">顶部弹出 popup</button>
+      <button class="_button data-v-28077c98 btn" type="button" bindtap="handleProxy" data-position="bottom" data-eventid="{{'fUd-3'}}" data-comkey="{{$k}}">底部弹出 popup</button>
     </view>
   </view>
 </template>

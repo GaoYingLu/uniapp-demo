@@ -1,7 +1,7 @@
 
       !(function(){
         var uniAppViewReadyCallback = function(){
-          setCssToHead([[2,1],".",[1],"text-box { margin-bottom: ",[0,70],"; padding: ",[0,40]," 0; display: -webkit-box; display: -webkit-flex; display: flex; min-height: ",[0,300],"; background-color: #FFFFFF; -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; align-items: center; text-align: center; font-size: ",[0,30],"; color: #353535; line-height: ",[0,46],"; }\n",])();
+          setCssToHead([[2,1],".",[1],"text-box { margin-bottom: ",[0,70],"; padding: ",[0,40]," 0; display: -webkit-box; display: -webkit-flex; display: flex; min-height: ",[0,300],"; background-color: #FFFFFF; -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; align-items: center; text-align: center; font-size: ",[0,30],"; color: #353535; line-height: ",[0,46],"; }\n",],undefined,{path:"./pages/component/text/text.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/component/text/text.wxml') } }));
         }
         if(window.__uniAppViewReady__){

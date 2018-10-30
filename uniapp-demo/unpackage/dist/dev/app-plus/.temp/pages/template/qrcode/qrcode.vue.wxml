@@ -3,29 +3,29 @@
 <import src="/components/page-foot.vue.wxml" />
 <template name="741deeed">
   <view class="_view data-v-2a467104 container">
-    <template data="{{...$root['0'], ...$root[$kk+'Nns-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'DBI-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-2a467104 page-body">
       <view class="_view data-v-2a467104 page-section">
-        <template ref="qrcode" data="{{...$root['0'], ...$root[$kk+'OnB-1'],$root}}" is="2be7b55e"></template>
+        <template ref="qrcode" data="{{...$root['0'], ...$root[$kk+'Uva-1'],$root}}" is="2be7b55e"></template>
       </view>
       <view class="_view data-v-2a467104 page-section">
         <view class="_view data-v-2a467104 page-section-title">请输入要生成的二维码内容</view>
         <view class="_view data-v-2a467104 uni-list">
           <view class="_view data-v-2a467104 uni-list-cell">
-            <input class="_input data-v-2a467104 uni-input" placeholder="请输入要生成的二维码内容" value="{{qrval}}" bindinput="handleProxy" data-eventid="{{'JYo-0'}}" data-comkey="{{$k}}" />
-            <view class="_view data-v-2a467104 uni-icon uni-icon-clear" wx:if="{{showClearIcon}}" bindtap="handleProxy" data-eventid="{{'rPB-1'}}" data-comkey="{{$k}}"></view>
+            <input class="_input data-v-2a467104 uni-input" placeholder="请输入要生成的二维码内容" value="{{qrval}}" bindinput="handleProxy" data-eventid="{{'KMv-0'}}" data-comkey="{{$k}}" />
+            <view class="_view data-v-2a467104 uni-icon uni-icon-clear" wx:if="{{showClearIcon}}" bindtap="handleProxy" data-eventid="{{'fcr-1'}}" data-comkey="{{$k}}"></view>
           </view>
         </view>
         <view class="_view data-v-2a467104 page-section-title">设置二维码大小</view>
         <view class="_view data-v-2a467104 body-view">
-          <slider value="{{qrsize}}" bindchange="handleProxy" min="50" max="500" show-value data-eventid="{{'0L9-2'}}" data-comkey="{{$k}}" class="_slider data-v-2a467104" />
+          <slider value="{{qrsize}}" bindchange="handleProxy" min="50" max="500" show-value data-eventid="{{'pcf-2'}}" data-comkey="{{$k}}" class="_slider data-v-2a467104" />
         </view>
       </view>
       <view class="_view data-v-2a467104 page-section">
-        <button type="primary" bindtap="handleProxy" data-eventid="{{'Mtm-3'}}" data-comkey="{{$k}}" class="_button data-v-2a467104">生成二维码</button>
-        <button type="warn" bindtap="handleProxy" data-eventid="{{'nHi-4'}}" data-comkey="{{$k}}" class="_button data-v-2a467104">清除二维码</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'gul-3'}}" data-comkey="{{$k}}" class="_button data-v-2a467104">生成二维码</button>
+        <button type="warn" bindtap="handleProxy" data-eventid="{{'GA2-4'}}" data-comkey="{{$k}}" class="_button data-v-2a467104">清除二维码</button>
       </view>
     </view>
-    <template data="{{...$root['0'], ...$root[$kk+'lB6-2'],$root}}" is="b74d4bca"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'bAs-2'],$root}}" is="b74d4bca"></template>
   </view>
 </template>

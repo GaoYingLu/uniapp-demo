@@ -1,25 +1,25 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="257083d2">
   <view class="_view data-v-843c12b4">
-    <template data="{{...$root['0'], ...$root[$kk+'i0t-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'T8H-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-843c12b4 page-body">
       <view class="_view data-v-843c12b4 page-section-title">分享内容</view>
       <view class="_view data-v-843c12b4 page-section">
         <view class="_view data-v-843c12b4 textarea-wrp">
-          <textarea class="_textarea data-v-843c12b4 textarea" value="{{shareText}}" bindinput="handleProxy" data-eventid="{{'Rpy-0'}}" data-comkey="{{$k}}" />
+          <textarea class="_textarea data-v-843c12b4 textarea" value="{{shareText}}" bindinput="handleProxy" data-eventid="{{'gTP-0'}}" data-comkey="{{$k}}" />
         </view>
       </view>
       <view class="_view data-v-843c12b4 page-section-title">分享图片：</view>
       <view class="_view data-v-843c12b4 page-section">
         <view class="_view data-v-843c12b4 uni-uploader-body">
-          <view class="_view data-v-843c12b4 uni-uploader__input-box" wx:if="{{!image}}" bindtap="handleProxy" data-eventid="{{'ZZU-1'}}" data-comkey="{{$k}}"></view>
+          <view class="_view data-v-843c12b4 uni-uploader__input-box" wx:if="{{!image}}" bindtap="handleProxy" data-eventid="{{'dAn-1'}}" data-comkey="{{$k}}"></view>
           <image class="_image data-v-843c12b4 uni-uploader__img" wx:if="{{image}}" src="{{image}}"></image>
         </view>
       </view>
       <view class="_view data-v-843c12b4 page-section-title">分享类型：</view>
       <view class="_view data-v-843c12b4 page-section">
         <view class="_view data-v-843c12b4 uni-uploader-body">
-          <radio-group bindchange="handleProxy" data-eventid="{{'EeC-2'}}" data-comkey="{{$k}}" class="_radio-group data-v-843c12b4">
+          <radio-group bindchange="handleProxy" data-eventid="{{'TWW-2'}}" data-comkey="{{$k}}" class="_radio-group data-v-843c12b4">
             <label class="_label data-v-843c12b4 radio">
               <radio value="1" checked="true" class="_radio data-v-843c12b4" />文字 </label>
             <label class="_label data-v-843c12b4 radio">
@@ -33,7 +33,7 @@
       </view>
       <view class="_view data-v-843c12b4 btn-area" wx:if="{{providerList.length > 0}}">
         <block wx:key="index" key="{{index}}" wx:for="{{providerList}}" wx:for-index="index" wx:for-item="value">
-          <button type="primary" wx:if="{{value}}" disabled="{{shareType === 5 && value.name !== '分享到微信好友'}}" bindtap="handleProxy" data-eventid="{{'8LN-3-'+index}}" data-comkey="{{$k}}" class="_button data-v-843c12b4">{{value.name}}</button>
+          <button type="primary" wx:if="{{value}}" disabled="{{shareType === 5 && value.name !== '分享到微信好友'}}" bindtap="handleProxy" data-eventid="{{'nJj-3-'+index}}" data-comkey="{{$k}}" class="_button data-v-843c12b4">{{value.name}}</button>
         </block>
       </view>
     </view>

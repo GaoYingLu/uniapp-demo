@@ -2,28 +2,28 @@
 <import src="/components/uni-badge.vue.wxml" />
 <template name="f85ca516">
   <view class="_view data-v-f2411374 page">
-    <template data="{{...$root['0'], ...$root[$kk+'b2K-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'wxD-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-f2411374 title">
       <text class="_text data-v-f2411374">有底色</text>
     </view>
     <view class="_view data-v-f2411374">
-      <template text="1" data="{{...$root['0'], ...$root[$kk+'Csq-1'],$root}}" is="7de61e96"></template>
-      <template text="12" type="primary" data="{{...$root['0'], ...$root[$kk+'u28-2'],$root}}" is="7de61e96"></template>
-      <template text="123" type="success" data="{{...$root['0'], ...$root[$kk+'cUB-3'],$root}}" is="7de61e96"></template>
-      <template text="3" type="warning" data="{{...$root['0'], ...$root[$kk+'oPS-4'],$root}}" is="7de61e96"></template>
-      <template text="45" type="danger" data="{{...$root['0'], ...$root[$kk+'eNc-5'],$root}}" is="7de61e96"></template>
-      <template text="456" type="purple" data="{{...$root['0'], ...$root[$kk+'kd6-6'],$root}}" is="7de61e96"></template>
+      <template text="1" data="{{...$root['0'], ...$root[$kk+'8Cx-1'],$root}}" is="7de61e96"></template>
+      <template text="12" type="primary" data="{{...$root['0'], ...$root[$kk+'wSH-2'],$root}}" is="7de61e96"></template>
+      <template text="123" type="success" data="{{...$root['0'], ...$root[$kk+'ubO-3'],$root}}" is="7de61e96"></template>
+      <template text="3" type="warning" data="{{...$root['0'], ...$root[$kk+'6Ms-4'],$root}}" is="7de61e96"></template>
+      <template text="45" type="danger" data="{{...$root['0'], ...$root[$kk+'6HZ-5'],$root}}" is="7de61e96"></template>
+      <template text="456" type="purple" data="{{...$root['0'], ...$root[$kk+'Yc7-6'],$root}}" is="7de61e96"></template>
     </view>
     <view class="_view data-v-f2411374 title">
       <text class="_text data-v-f2411374">无底色</text>
     </view>
     <view class="_view data-v-f2411374">
-      <template text="1" data="{{...$root['0'], ...$root[$kk+'LN8-7'],$root}}" is="7de61e96"></template>
-      <template text="12" type="primary" data="{{...$root['0'], ...$root[$kk+'Jjg-8'],$root}}" is="7de61e96"></template>
-      <template text="123" type="success" data="{{...$root['0'], ...$root[$kk+'bsT-9'],$root}}" is="7de61e96"></template>
-      <template text="3" type="warning" data="{{...$root['0'], ...$root[$kk+'7jl-10'],$root}}" is="7de61e96"></template>
-      <template text="45" type="danger" data="{{...$root['0'], ...$root[$kk+'I78-11'],$root}}" is="7de61e96"></template>
-      <template text="456" type="purple" data="{{...$root['0'], ...$root[$kk+'3LB-12'],$root}}" is="7de61e96"></template>
+      <template text="1" data="{{...$root['0'], ...$root[$kk+'MXx-7'],$root}}" is="7de61e96"></template>
+      <template text="12" type="primary" data="{{...$root['0'], ...$root[$kk+'X76-8'],$root}}" is="7de61e96"></template>
+      <template text="123" type="success" data="{{...$root['0'], ...$root[$kk+'1hn-9'],$root}}" is="7de61e96"></template>
+      <template text="3" type="warning" data="{{...$root['0'], ...$root[$kk+'6k3-10'],$root}}" is="7de61e96"></template>
+      <template text="45" type="danger" data="{{...$root['0'], ...$root[$kk+'ffl-11'],$root}}" is="7de61e96"></template>
+      <template text="456" type="purple" data="{{...$root['0'], ...$root[$kk+'oU5-12'],$root}}" is="7de61e96"></template>
     </view>
   </view>
 </template>

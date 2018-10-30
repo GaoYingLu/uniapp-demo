@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="69c038e9">
   <view class="_view data-v-687f93f8">
-    <template data="{{...$root['0'], ...$root[$kk+'8fb-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'dLm-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-687f93f8 page-body">
       <view class="_view data-v-687f93f8 page-section">
         <view class="_view data-v-687f93f8">支付金额</view>
@@ -9,7 +9,7 @@
           <text class="_text data-v-687f93f8 rmbLogo">￥</text>0.01</view>
         <view class="_view data-v-687f93f8 desc">实际应用中可自定义金额</view>
         <view class="_view data-v-687f93f8 btn-area">
-          <button type="primary" bindtap="handleProxy" loading="{{loading}}" data-eventid="{{'sUN-0'}}" data-comkey="{{$k}}" class="_button data-v-687f93f8">微信支付</button>
+          <button type="primary" bindtap="handleProxy" loading="{{loading}}" data-eventid="{{'9OC-0'}}" data-comkey="{{$k}}" class="_button data-v-687f93f8">微信支付</button>
         </view>
       </view>
     </view>

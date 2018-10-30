@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="4268dbaf">
   <view class="_view data-v-412836be">
-    <template data="{{...$root['0'], ...$root[$kk+'IkV-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'oe4-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-412836be page-body">
       <view class="_view data-v-412836be page-section">
         <view class="_view data-v-412836be page-body-info">
@@ -18,8 +18,8 @@
           </block>
         </view>
         <view class="_view data-v-412836be btn-area">
-          <button type="primary" bindtap="handleProxy" data-eventid="{{'A8V-0'}}" data-comkey="{{$k}}" class="_button data-v-412836be">选择位置</button>
-          <button bindtap="handleProxy" data-eventid="{{'4II-1'}}" data-comkey="{{$k}}" class="_button data-v-412836be">清空</button>
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'RWa-0'}}" data-comkey="{{$k}}" class="_button data-v-412836be">选择位置</button>
+          <button bindtap="handleProxy" data-eventid="{{'tZP-1'}}" data-comkey="{{$k}}" class="_button data-v-412836be">清空</button>
         </view>
       </view>
     </view>

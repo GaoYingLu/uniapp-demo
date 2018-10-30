@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="7b1be454">
   <view class="_view data-v-e3eb95ba">
-    <template data="{{...$root['0'], ...$root[$kk+'tdu-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'aCf-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-e3eb95ba page-body">
       <view class="_view data-v-e3eb95ba page-section page-section-gap">
         <map latitude="{{latitude}}" longitude="{{longitude}}" markers="{{covers}}" class="_map data-v-e3eb95ba"></map>

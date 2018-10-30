@@ -1,7 +1,7 @@
 
       !(function(){
         var uniAppViewReadyCallback = function(){
-          setCssToHead([[2,1],])();
+          setCssToHead([[2,1],],undefined,{path:"./pages/component/navigator/redirect/redirect.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/component/navigator/redirect/redirect.wxml') } }));
         }
         if(window.__uniAppViewReady__){

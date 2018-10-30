@@ -1,11 +1,11 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="1b13359e">
   <view class="_view data-v-949ec8fc page">
-    <template data="{{...$root['0'], ...$root[$kk+'TEz-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'0Di-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-949ec8fc uni-list">
       <view class="_view data-v-949ec8fc uni-list-cell uni-list-cell-pd">
         <view class="_view data-v-949ec8fc uni-list-cell-db">循环</view>
-        <switch bindchange="handleProxy" data-eventid="{{'GZ6-0'}}" data-comkey="{{$k}}" class="_switch data-v-949ec8fc" />
+        <switch bindchange="handleProxy" data-eventid="{{'Row-0'}}" data-comkey="{{$k}}" class="_switch data-v-949ec8fc" />
       </view>
     </view>
     <swiper indicator-dots="{{true}}" autoplay="{{true}}" circular="{{isCircular}}" class="_swiper data-v-949ec8fc">

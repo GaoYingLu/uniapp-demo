@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="52af2e97">
   <view class="_view data-v-d3678234">
-    <template data="{{...$root['0'], ...$root[$kk+'DCB-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'Uc9-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-d3678234 page-body">
       <view class="_view data-v-d3678234 page-section">
         <view class="_view data-v-d3678234 page-body-info">
@@ -12,7 +12,7 @@
             <image src="{{savedFilePath}}" class="_image data-v-d3678234 image" mode="aspectFit"></image>
           </block>
           <block wx:if="{{tempFilePath === '' && savedFilePath === ''}}">
-            <view class="_view data-v-d3678234 image-plus image-plus-nb" bindtap="handleProxy" data-eventid="{{'A47-0'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d3678234 image-plus image-plus-nb" bindtap="handleProxy" data-eventid="{{'AQX-0'}}" data-comkey="{{$k}}">
               <view class="_view data-v-d3678234 image-plus-horizontal"></view>
               <view class="_view data-v-d3678234 image-plus-vertical"></view>
             </view>
@@ -20,11 +20,11 @@
           </block>
         </view>
         <view class="_view data-v-d3678234 btn-area">
-          <button class="_button data-v-d3678234 btn-savefile" bindtap="handleProxy" data-eventid="{{'njl-1'}}" data-comkey="{{$k}}">保存文件</button>
-          <button bindtap="handleProxy" data-eventid="{{'UTC-2'}}" data-comkey="{{$k}}" class="_button data-v-d3678234">删除文件</button>
+          <button class="_button data-v-d3678234 btn-savefile" bindtap="handleProxy" data-eventid="{{'4CU-1'}}" data-comkey="{{$k}}">保存文件</button>
+          <button bindtap="handleProxy" data-eventid="{{'cWL-2'}}" data-comkey="{{$k}}" class="_button data-v-d3678234">删除文件</button>
         </view>
         <view class="_view data-v-d3678234 btn-area">
-          <button bindtap="handleProxy" data-eventid="{{'6fp-3'}}" data-comkey="{{$k}}" class="_button data-v-d3678234">打开pdf文件</button>
+          <button bindtap="handleProxy" data-eventid="{{'sh3-3'}}" data-comkey="{{$k}}" class="_button data-v-d3678234">打开pdf文件</button>
         </view>
       </view>
     </view>

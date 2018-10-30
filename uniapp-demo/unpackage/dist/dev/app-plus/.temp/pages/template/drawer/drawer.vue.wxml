@@ -4,12 +4,12 @@
   <view class="_view data-v-1bc59bc4">
     <view class="_view data-v-1bc59bc4 header">
       <view class="_view data-v-1bc59bc4 input-view">
-        <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'LQv-0'],$root}}" is="20707757"></template>
-        <input confirm-type="search" bindconfirm="handleProxy" class="_input data-v-1bc59bc4 input" type="text" placeholder="输入搜索关键词" data-eventid="{{'ZFu-0'}}" data-comkey="{{$k}}" />
+        <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'hF7-0'],$root}}" is="20707757"></template>
+        <input confirm-type="search" bindconfirm="handleProxy" class="_input data-v-1bc59bc4 input" type="text" placeholder="输入搜索关键词" data-eventid="{{'REn-0'}}" data-comkey="{{$k}}" />
       </view>
     </view>
     <view class="_view data-v-1bc59bc4 page-content"> 这是抽屉式导航组件使用示例，可以指定菜单左侧或者右侧弹出（仅初始化生效），组件内部可以放置任何内容。点击页面右上角的按钮即可显示导航菜单。 </view>
-    <template mode="right" bindclose="handleProxy" data-eventid="{{'vfz-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'aMA-1'],$root, $slotdefault:'data-v-1bc59bc4-default-aMA-1'}}"
+    <template mode="right" bindclose="handleProxy" data-eventid="{{'EEr-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'AfY-1'],$root, $slotdefault:'data-v-1bc59bc4-default-AfY-1'}}"
       is="3c0d1e4f"></template>
   </view>
 </template>

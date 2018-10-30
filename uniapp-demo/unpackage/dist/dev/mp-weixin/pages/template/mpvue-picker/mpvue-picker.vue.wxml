@@ -8,11 +8,11 @@
       <view class="_view data-v-5e661f04 picker-text">{{pickerText}}</view>
     </view>
     <view class="_view data-v-5e661f04 page-bd">
-      <button type="default" bindtap="handleProxy" data-eventid="{{'ua4-0'}}" data-comkey="{{$k}}" class="_button data-v-5e661f04">单列选择</button>
-      <button type="default" bindtap="handleProxy" data-eventid="{{'MWe-1'}}" data-comkey="{{$k}}" class="_button data-v-5e661f04">二级联动</button>
-      <button type="default" bindtap="handleProxy" data-eventid="{{'O7u-2'}}" data-comkey="{{$k}}" class="_button data-v-5e661f04">三级城市联动</button>
+      <button type="default" bindtap="handleProxy" data-eventid="{{'W5v-0'}}" data-comkey="{{$k}}" class="_button data-v-5e661f04">单列选择</button>
+      <button type="default" bindtap="handleProxy" data-eventid="{{'Z2Q-1'}}" data-comkey="{{$k}}" class="_button data-v-5e661f04">二级联动</button>
+      <button type="default" bindtap="handleProxy" data-eventid="{{'p9E-2'}}" data-comkey="{{$k}}" class="_button data-v-5e661f04">三级城市联动</button>
     </view>
-    <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'Rt3-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'cS4-0'],$root}}" is="42ea4c9b"></template>
-    <template ref="mpvueCityPicker" bindonCancel="handleProxy" bindonConfirm="handleProxy" data-eventid="{{'MxC-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'nEV-1'],$root}}" is="2200e3de"></template>
+    <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'Wcd-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'U8j-0'],$root}}" is="42ea4c9b"></template>
+    <template ref="mpvueCityPicker" bindonCancel="handleProxy" bindonConfirm="handleProxy" data-eventid="{{'ovD-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'JlD-1'],$root}}" is="2200e3de"></template>
   </view>
 </template>

@@ -15,7 +15,7 @@
       </view>
       <view class="_view data-v-0f56acd0 page-section-title">图片类型</view>
       <view class="_view data-v-0f56acd0 uni-list">
-        <radio-group bindchange="handleProxy" data-eventid="{{'tvb-0'}}" data-comkey="{{$k}}" class="_radio-group data-v-0f56acd0">
+        <radio-group bindchange="handleProxy" data-eventid="{{'VD2-0'}}" data-comkey="{{$k}}" class="_radio-group data-v-0f56acd0">
           <label class="_label data-v-0f56acd0 uni-list-cell uni-list-cell-pd" wx:key="index" key="{{index}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
             <view class="_view data-v-0f56acd0">{{item.name}}</view>
             <view class="_view data-v-0f56acd0">

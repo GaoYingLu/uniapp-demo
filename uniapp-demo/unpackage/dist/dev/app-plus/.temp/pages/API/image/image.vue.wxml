@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="ad46afe2">
   <view class="_view data-v-79f6e09e">
-    <template data="{{...$root['0'], ...$root[$kk+'b4L-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'MQp-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-79f6e09e page-body">
       <form class="_form data-v-79f6e09e">
         <view class="_view data-v-79f6e09e page-section">
@@ -11,7 +11,7 @@
                 <view class="_view data-v-79f6e09e uni-label">图片来源</view>
               </view>
               <view class="_view data-v-79f6e09e uni-list-cell-right">
-                <picker range="{{sourceType}}" bindchange="handleProxy" value="{{sourceTypeIndex}}" mode="selector" data-eventid="{{'wgz-0'}}" data-comkey="{{$k}}" class="_picker data-v-79f6e09e">
+                <picker range="{{sourceType}}" bindchange="handleProxy" value="{{sourceTypeIndex}}" mode="selector" data-eventid="{{'F9e-0'}}" data-comkey="{{$k}}" class="_picker data-v-79f6e09e">
                   <view class="_view data-v-79f6e09e uni-input">{{sourceType[sourceTypeIndex]}}</view>
                 </picker>
               </view>
@@ -21,7 +21,7 @@
                 <view class="_view data-v-79f6e09e uni-label">图片质量</view>
               </view>
               <view class="_view data-v-79f6e09e uni-list-cell-right">
-                <picker range="{{sizeType}}" bindchange="handleProxy" value="{{sizeTypeIndex}}" mode="selector" data-eventid="{{'DM9-1'}}" data-comkey="{{$k}}" class="_picker data-v-79f6e09e">
+                <picker range="{{sizeType}}" bindchange="handleProxy" value="{{sizeTypeIndex}}" mode="selector" data-eventid="{{'2Kz-1'}}" data-comkey="{{$k}}" class="_picker data-v-79f6e09e">
                   <view class="_view data-v-79f6e09e uni-input">{{sizeType[sizeTypeIndex]}}</view>
                 </picker>
               </view>
@@ -31,7 +31,7 @@
                 <view class="_view data-v-79f6e09e uni-label">数量限制</view>
               </view>
               <view class="_view data-v-79f6e09e uni-list-cell-right">
-                <picker range="{{count}}" bindchange="handleProxy" mode="selector" data-eventid="{{'ofA-2'}}" data-comkey="{{$k}}" class="_picker data-v-79f6e09e">
+                <picker range="{{count}}" bindchange="handleProxy" mode="selector" data-eventid="{{'zho-2'}}" data-comkey="{{$k}}" class="_picker data-v-79f6e09e">
                   <view class="_view data-v-79f6e09e uni-input">{{count[countIndex]}}</view>
                 </picker>
               </view>
@@ -48,12 +48,12 @@
                   <view class="_view data-v-79f6e09e uni-uploader__files">
                     <block wx:key="index" key="{{index}}" wx:for="{{imageList}}" wx:for-index="index" wx:for-item="image">
                       <view class="_view data-v-79f6e09e uni-uploader__file">
-                        <image class="_image data-v-79f6e09e uni-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="handleProxy" data-eventid="{{'ibI-3-'+index}}" data-comkey="{{$k}}"></image>
+                        <image class="_image data-v-79f6e09e uni-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="handleProxy" data-eventid="{{'RMp-3-'+index}}" data-comkey="{{$k}}"></image>
                       </view>
                     </block>
                   </view>
                   <view class="_view data-v-79f6e09e uni-uploader__input-box">
-                    <view class="_view data-v-79f6e09e uni-uploader__input" bindtap="handleProxy" data-eventid="{{'f1P-4'}}" data-comkey="{{$k}}"></view>
+                    <view class="_view data-v-79f6e09e uni-uploader__input" bindtap="handleProxy" data-eventid="{{'btr-4'}}" data-comkey="{{$k}}"></view>
                   </view>
                 </view>
               </view>

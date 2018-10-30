@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="7381d7fa">
   <view class="_view data-v-11b8b209">
-    <template data="{{...$root['0'], ...$root[$kk+'hJc-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'QtQ-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-11b8b209 page-body">
       <view class="_view data-v-11b8b209 page-section page-section-gap">
         <view class="_view data-v-11b8b209 page-section-title">默认样式</view>
@@ -13,7 +13,7 @@
       <view class="_view data-v-11b8b209 page-section">
         <view class="_view data-v-11b8b209 page-section-title">推荐展示样式</view>
         <view class="_view data-v-11b8b209 uni-list">
-          <checkbox-group bindchange="handleProxy" data-eventid="{{'DSY-0'}}" data-comkey="{{$k}}" class="_checkbox-group data-v-11b8b209">
+          <checkbox-group bindchange="handleProxy" data-eventid="{{'rr4-0'}}" data-comkey="{{$k}}" class="_checkbox-group data-v-11b8b209">
             <label class="_label data-v-11b8b209 uni-list-cell uni-list-cell-pd" wx:key="item.value" key="{{item.value}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
               <view class="_view data-v-11b8b209">
                 <checkbox value="{{item.value}}" checked="{{item.checked}}" class="_checkbox data-v-11b8b209"></checkbox>

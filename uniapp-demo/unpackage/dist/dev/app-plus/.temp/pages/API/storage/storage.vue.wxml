@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="c720e162">
   <view class="_view data-v-a5e62f44">
-    <template data="{{...$root['0'], ...$root[$kk+'ozR-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'nRt-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-a5e62f44 page-body">
       <view class="_view data-v-a5e62f44 page-section">
         <view class="_view data-v-a5e62f44 uni-list">
@@ -10,7 +10,7 @@
               <view class="_view data-v-a5e62f44 uni-label">key</view>
             </view>
             <view class="_view data-v-a5e62f44 uni-list-cell-db">
-              <input class="_input data-v-a5e62f44 uni-input" type="text" placeholder="请输入key" name="key" value="{{key}}" bindinput="handleProxy" data-eventid="{{'7Y5-0'}}" data-comkey="{{$k}}" />
+              <input class="_input data-v-a5e62f44 uni-input" type="text" placeholder="请输入key" name="key" value="{{key}}" bindinput="handleProxy" data-eventid="{{'I82-0'}}" data-comkey="{{$k}}" />
             </view>
           </view>
           <view class="_view data-v-a5e62f44 uni-list-cell">
@@ -18,14 +18,14 @@
               <view class="_view data-v-a5e62f44 uni-label">value</view>
             </view>
             <view class="_view data-v-a5e62f44 uni-list-cell-db">
-              <input class="_input data-v-a5e62f44 uni-input" type="text" placeholder="请输入value" name="data" value="{{data}}" bindinput="handleProxy" data-eventid="{{'SUZ-1'}}" data-comkey="{{$k}}" />
+              <input class="_input data-v-a5e62f44 uni-input" type="text" placeholder="请输入value" name="data" value="{{data}}" bindinput="handleProxy" data-eventid="{{'Gy1-1'}}" data-comkey="{{$k}}" />
             </view>
           </view>
         </view>
         <view class="_view data-v-a5e62f44 btn-area">
-          <button type="primary" class="_button data-v-a5e62f44 btn-setstorage" bindtap="handleProxy" data-eventid="{{'Aux-2'}}" data-comkey="{{$k}}">存储数据</button>
-          <button bindtap="handleProxy" data-eventid="{{'wk1-3'}}" data-comkey="{{$k}}" class="_button data-v-a5e62f44">读取数据</button>
-          <button bindtap="handleProxy" data-eventid="{{'70k-4'}}" data-comkey="{{$k}}" class="_button data-v-a5e62f44">清理数据</button>
+          <button type="primary" class="_button data-v-a5e62f44 btn-setstorage" bindtap="handleProxy" data-eventid="{{'tTN-2'}}" data-comkey="{{$k}}">存储数据</button>
+          <button bindtap="handleProxy" data-eventid="{{'jlG-3'}}" data-comkey="{{$k}}" class="_button data-v-a5e62f44">读取数据</button>
+          <button bindtap="handleProxy" data-eventid="{{'ac0-4'}}" data-comkey="{{$k}}" class="_button data-v-a5e62f44">清理数据</button>
         </view>
       </view>
     </view>

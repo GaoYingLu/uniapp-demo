@@ -2,13 +2,13 @@
 <import src="/components/uni-icon.vue.wxml" />
 <template name="9f5819fe">
   <view class="_view data-v-72beeb52">
-    <template fixed="true" left-icon="back" bindclick-left="handleProxy" bindclick-right="handleProxy" left-text="返回" right-text="菜单" title="导航栏组件" data-eventid="{{'tgQ-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'YM3-0'],$root}}" is="4813bbfb"></template>
-    <template background-color="rgba(0,0,0,0)" status-bar="true" data="{{...$root['0'], ...$root[$kk+'hre-1'],$root}}" is="4813bbfb"></template>
+    <template fixed="true" left-icon="back" bindclick-left="handleProxy" bindclick-right="handleProxy" left-text="返回" right-text="菜单" title="导航栏组件" data-eventid="{{'oYV-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Wqy-0'],$root}}" is="4813bbfb"></template>
+    <template background-color="rgba(0,0,0,0)" status-bar="true" data="{{...$root['0'], ...$root[$kk+'CwH-1'],$root}}" is="4813bbfb"></template>
     <view class="_view data-v-72beeb52 title">本导航栏为自定义组件，并非原生导航栏。除非原生导航栏无法满足需求，否则不推荐使用自定义导航栏组件。具体参考http://ask.dcloud.net.cn/article/34921</view>
     <view class="_view data-v-72beeb52 title">基础用法(注意右上角应避开微信小程序自带的胶囊按钮)</view>
-    <template left-icon="back" bindclick-left="handleProxy" title="标题" data-eventid="{{'sn9-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'8kU-2'],$root}}" is="4813bbfb"></template>
+    <template left-icon="back" bindclick-left="handleProxy" title="标题" data-eventid="{{'rct-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'DJq-2'],$root}}" is="4813bbfb"></template>
     <view class="_view data-v-72beeb52 title">其他常见样式</view>
-    <template color="#333333" background-color="#FFFFFF" fixed="false" right-icon="scan" bindclick-left="handleProxy" bindclick-right="handleProxy" data-eventid="{{'AJl-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'byL-5'],$root, $slotdefault:'data-v-72beeb52-default-byL-5',$slotleft:'data-v-72beeb52-left-byL-5'}}"
+    <template color="#333333" background-color="#FFFFFF" fixed="false" right-icon="scan" bindclick-left="handleProxy" bindclick-right="handleProxy" data-eventid="{{'L8Q-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'wYM-5'],$root, $slotdefault:'data-v-72beeb52-default-wYM-5',$slotleft:'data-v-72beeb52-left-wYM-5'}}"
       is="4813bbfb"></template>
   </view>
 </template>

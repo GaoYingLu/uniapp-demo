@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="35225497">
   <view class="_view data-v-fd11b034">
-    <template data="{{...$root['0'], ...$root[$kk+'Qug-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'1aO-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-fd11b034 page-body">
       <view class="_view data-v-fd11b034 page-section">
         <view class="_view data-v-fd11b034 page-body-info">
@@ -15,8 +15,8 @@
           </block>
         </view>
         <view class="_view data-v-fd11b034 btn-area">
-          <button type="primary" bindtap="handleProxy" data-eventid="{{'WpS-0'}}" data-comkey="{{$k}}" class="_button data-v-fd11b034">获取手机网络状态</button>
-          <button bindtap="handleProxy" data-eventid="{{'Z8q-1'}}" data-comkey="{{$k}}" class="_button data-v-fd11b034">清空</button>
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'Svt-0'}}" data-comkey="{{$k}}" class="_button data-v-fd11b034">获取手机网络状态</button>
+          <button bindtap="handleProxy" data-eventid="{{'Vi2-1'}}" data-comkey="{{$k}}" class="_button data-v-fd11b034">清空</button>
         </view>
       </view>
     </view>

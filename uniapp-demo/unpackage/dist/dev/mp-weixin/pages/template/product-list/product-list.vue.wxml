@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="b8497826">
   <view class="_view data-v-d9666a04 page">
-    <template data="{{...$root['0'], ...$root[$kk+'NbP-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'K7h-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-d9666a04 product-list">
       <view class="_view data-v-d9666a04 product" wx:key="index" key="{{index}}" wx:for="{{productList}}" wx:for-index="index" wx:for-item="product">
         <view class="_view data-v-d9666a04 image-view">

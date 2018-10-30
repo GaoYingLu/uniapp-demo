@@ -1,11 +1,11 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="1a594cc4">
   <view class="_view data-v-79049e13">
-    <template data="{{...$root['0'], ...$root[$kk+'B5I-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'hah-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-79049e13 page-body">
       <view class="_view data-v-79049e13 page-section page-section-gap">
         <view class="_view data-v-79049e13 page-section-title">表单组件在label内</view>
-        <checkbox-group class="_checkbox-group data-v-79049e13 group" bindchange="handleProxy" data-eventid="{{'EEM-0'}}" data-comkey="{{$k}}">
+        <checkbox-group class="_checkbox-group data-v-79049e13 group" bindchange="handleProxy" data-eventid="{{'OVl-0'}}" data-comkey="{{$k}}">
           <view class="_view data-v-79049e13 label-1" wx:key="item.name" key="{{item.name}}" wx:for="{{checkboxItems}}" wx:for-index="index" wx:for-item="item">
             <label class="_label data-v-79049e13">
               <checkbox value="{{item.name}}" checked="{{item.checked}}" class="_checkbox data-v-79049e13"></checkbox>
@@ -16,7 +16,7 @@
       </view>
       <view class="_view data-v-79049e13 page-section page-section-gap">
         <view class="_view data-v-79049e13 page-section-title">label用for标识表单组件</view>
-        <radio-group class="_radio-group data-v-79049e13 group" bindchange="handleProxy" data-eventid="{{'isK-1'}}" data-comkey="{{$k}}">
+        <radio-group class="_radio-group data-v-79049e13 group" bindchange="handleProxy" data-eventid="{{'7SH-1'}}" data-comkey="{{$k}}">
           <view class="_view data-v-79049e13 label-2" wx:key="index" key="{{index}}" wx:for="{{radioItems}}" wx:for-index="index" wx:for-item="item">
             <radio id="{{item.name}}" value="{{item.name}}" checked="{{item.checked}}" class="_radio data-v-79049e13" />
             <label class="_label data-v-79049e13 label-2-text" for="{{item.name}}">

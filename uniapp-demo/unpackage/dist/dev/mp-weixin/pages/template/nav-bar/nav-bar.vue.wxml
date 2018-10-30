@@ -4,9 +4,9 @@
   <view class="_view data-v-72beeb52">
     <view class="_view data-v-72beeb52 title">本导航栏为自定义组件，并非原生导航栏。除非原生导航栏无法满足需求，否则不推荐使用自定义导航栏组件。具体参考http://ask.dcloud.net.cn/article/34921</view>
     <view class="_view data-v-72beeb52 title">基础用法(注意右上角应避开微信小程序自带的胶囊按钮)</view>
-    <template left-icon="back" bindclick-left="handleProxy" title="标题" data-eventid="{{'G5R-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'4CX-0'],$root}}" is="4813bbfb"></template>
+    <template left-icon="back" bindclick-left="handleProxy" title="标题" data-eventid="{{'Q6o-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'N27-0'],$root}}" is="4813bbfb"></template>
     <view class="_view data-v-72beeb52 title">其他常见样式</view>
-    <template color="#333333" background-color="#FFFFFF" fixed="false" right-icon="scan" bindclick-left="handleProxy" bindclick-right="handleProxy" data-eventid="{{'i67-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'yTc-3'],$root, $slotdefault:'data-v-72beeb52-default-yTc-3',$slotleft:'data-v-72beeb52-left-yTc-3'}}"
+    <template color="#333333" background-color="#FFFFFF" fixed="false" right-icon="scan" bindclick-left="handleProxy" bindclick-right="handleProxy" data-eventid="{{'oPw-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'eKH-3'],$root, $slotdefault:'data-v-72beeb52-default-eKH-3',$slotleft:'data-v-72beeb52-left-eKH-3'}}"
       is="4813bbfb"></template>
   </view>
 </template>

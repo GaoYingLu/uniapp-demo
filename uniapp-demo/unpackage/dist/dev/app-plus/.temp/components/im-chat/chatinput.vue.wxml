@@ -1,12 +1,12 @@
 <template name="6b913373">
   <view class="_view data-v-3b5fe7f8 footer">
     <view class="_view data-v-3b5fe7f8 footer-left">
-      <view class="_view data-v-3b5fe7f8 uni-icon uni-icon-mic" bindtap="handleProxy" data-eventid="{{'aD4-0'}}" data-comkey="{{$k}}"></view>
+      <view class="_view data-v-3b5fe7f8 uni-icon uni-icon-mic" bindtap="handleProxy" data-eventid="{{'UWs-0'}}" data-comkey="{{$k}}"></view>
     </view>
     <view class="_view data-v-3b5fe7f8 footer-center">
-      <input class="_input data-v-3b5fe7f8 input-text" type="text" value="{{inputValue}}" bindinput="handleProxy" data-eventid="{{'fPj-1'}}" data-comkey="{{$k}}" />
+      <input class="_input data-v-3b5fe7f8 input-text" type="text" value="{{inputValue}}" bindinput="handleProxy" data-eventid="{{'KpE-1'}}" data-comkey="{{$k}}" />
     </view>
-    <view class="_view data-v-3b5fe7f8 footer-right" bindtap="handleProxy" data-eventid="{{'2ew-2'}}" data-comkey="{{$k}}">
+    <view class="_view data-v-3b5fe7f8 footer-right" bindtap="handleProxy" data-eventid="{{'XSK-2'}}" data-comkey="{{$k}}">
       <view id="msg-type" class="_view data-v-3b5fe7f8">发送</view>
     </view>
   </view>

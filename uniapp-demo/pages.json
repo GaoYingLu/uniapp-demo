@@ -675,12 +675,7 @@
                         }
                     }
                 },
-                {
-                    "path" : "grid/grid",
-                    "style" : {
-                        "navigationBarTitleText" : "九宫格"
-                    }
-                },
+                
                 {
                     "path" : "grid-pagination/grid-pagination",
                     "style" : {

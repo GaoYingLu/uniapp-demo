@@ -1,21 +1,21 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="1843a046">
   <view class="_view data-v-6a9d086e">
-    <template data="{{...$root['0'], ...$root[$kk+'QrM-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'dsk-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-6a9d086e page-body" wx:if="{{provider[0]}}">
       <view class="_view data-v-6a9d086e btn-area">
-        <button type="primary" bindtap="handleProxy" data-eventid="{{'8uH-0'}}" data-comkey="{{$k}}" class="_button data-v-6a9d086e">开启push</button>
-        <button type="primary" bindtap="handleProxy" data-eventid="{{'5Y5-1'}}" data-comkey="{{$k}}" class="_button data-v-6a9d086e">关闭push</button>
-        <button type="primary" bindtap="handleProxy" data-eventid="{{'IBI-2'}}" data-comkey="{{$k}}" class="_button data-v-6a9d086e">监听透传数据</button>
-        <button type="primary" bindtap="handleProxy" data-eventid="{{'cNu-3'}}" data-comkey="{{$k}}" class="_button data-v-6a9d086e">移除监听透传数据</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'fky-0'}}" data-comkey="{{$k}}" class="_button data-v-6a9d086e">开启push</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'doX-1'}}" data-comkey="{{$k}}" class="_button data-v-6a9d086e">关闭push</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'tuy-2'}}" data-comkey="{{$k}}" class="_button data-v-6a9d086e">监听透传数据</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'O2Y-3'}}" data-comkey="{{$k}}" class="_button data-v-6a9d086e">移除监听透传数据</button>
       </view>
       <view class="_view data-v-6a9d086e btn-area">
-        <button type="primary" bindtap="handleProxy" data-eventid="{{'2nO-4'}}" data-comkey="{{$k}}" class="_button data-v-6a9d086e">发送"透传数据"消息</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'eH0-4'}}" data-comkey="{{$k}}" class="_button data-v-6a9d086e">发送"透传数据"消息</button>
       </view>
       <view class="_view data-v-6a9d086e page-section-title">透传内容：</view>
       <view class="_view data-v-6a9d086e page-section">
         <view class="_view data-v-6a9d086e textare-view">
-          <textarea class="_textarea data-v-6a9d086e textarea" value="{{tranMsg}}" bindinput="handleProxy" data-eventid="{{'RzT-5'}}" data-comkey="{{$k}}" />
+          <textarea class="_textarea data-v-6a9d086e textarea" value="{{tranMsg}}" bindinput="handleProxy" data-eventid="{{'C0g-5'}}" data-comkey="{{$k}}" />
         </view>
       </view>
     </view>

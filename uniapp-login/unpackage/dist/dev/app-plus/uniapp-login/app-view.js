@@ -1060,6 +1060,19 @@ function gz$gwx_1(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_1)return __WXML_GLOBAL__.ops_cached.$gwx_1
 __WXML_GLOBAL__.ops_cached.$gwx_1=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'1893a7b2'])
+Z([[7],[3,'text']])
+Z([3,'handleProxy'])
+Z([a,[3,'_text data-v-775f3694 uni-badge '],[[4],[[5],[[5],[[2,'?:'],[[2,'==='],[[7],[3,'inverted']],[1,true]],[1,'uni-badge-inverted'],[1,'']]],[[2,'+'],[1,'uni-badge-'],[[7],[3,'type']]]]]])
+Z([[7],[3,'$k']])
+Z([1,'t2o-0'])
+Z([a,[3,' '],[[7],[3,'text']],[3,' ']])
+})(__WXML_GLOBAL__.ops_cached.$gwx_1);return __WXML_GLOBAL__.ops_cached.$gwx_1
+}
+function gz$gwx_2(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
+__WXML_GLOBAL__.ops_cached.$gwx_2=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'7aad820e'])
 Z([3,'_view data-v-6415abdf content'])
 Z([3,'_view data-v-6415abdf input-group'])
@@ -1069,7 +1082,7 @@ Z([3,'账号：'])
 Z([3,'handleProxy'])
 Z([3,'_input data-v-6415abdf'])
 Z([[7],[3,'$k']])
-Z([1,'fuo-0'])
+Z([1,'HJq-0'])
 Z([3,'请输入账号'])
 Z([3,'text'])
 Z([[7],[3,'account']])
@@ -1079,7 +1092,7 @@ Z([3,'密码：'])
 Z(z[6])
 Z(z[7])
 Z(z[8])
-Z([1,'hbw-1'])
+Z([1,'nLE-1'])
 Z([3,'true'])
 Z([3,'请输入密码'])
 Z(z[11])
@@ -1088,7 +1101,7 @@ Z([3,'_view data-v-6415abdf btn-row'])
 Z(z[6])
 Z([3,'_button data-v-6415abdf primary'])
 Z(z[8])
-Z([1,'Drv-2'])
+Z([1,'u6s-2'])
 Z([3,'primary'])
 Z([3,'登录'])
 Z([3,'_view data-v-6415abdf action-row'])
@@ -1112,52 +1125,64 @@ Z([[6],[[7],[3,'provider']],[3,'value']])
 Z(z[6])
 Z([3,'_image data-v-6415abdf'])
 Z(z[8])
-Z([[2,'+'],[1,'krG-3-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'6vw-3-'],[[7],[3,'index']]])
 Z([[6],[[7],[3,'provider']],[3,'image']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_1);return __WXML_GLOBAL__.ops_cached.$gwx_1
-}
-function gz$gwx_2(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
-__WXML_GLOBAL__.ops_cached.$gwx_2=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'7aad820e'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
 }
 function gz$gwx_3(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
 __WXML_GLOBAL__.ops_cached.$gwx_3=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'7bacb7da'])
-Z([3,'_view data-v-dbf1bc2a content'])
-Z([[6],[[7],[3,'userInfo']],[3,'name']])
-Z([3,'_view data-v-dbf1bc2a hello'])
-Z([3,'_view data-v-dbf1bc2a title'])
-Z([a,[3,' 您好 '],[[6],[[7],[3,'userInfo']],[3,'name']],[3,'，您已成功登录。 ']])
-Z([3,'_view data-v-dbf1bc2a ul'])
-Z([3,'_view data-v-dbf1bc2a'])
-Z([3,'这是 uni-app 带登录模板的示例App首页。'])
-Z(z[7])
-Z([3,'在 “我的” 中点击 “退出” 可以 “注销当前账户”'])
-Z(z[3])
-Z(z[4])
-Z([3,' 您好,游客,本 App 须登录后使用。 '])
-Z(z[6])
-Z(z[7])
-Z([3,'请先登录！'])
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'7aad820e'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
 }
 function gz$gwx_4(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
 __WXML_GLOBAL__.ops_cached.$gwx_4=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'7bacb7da'])
+Z([3,'_view data-v-dbf1bc2a index'])
+Z([3,'_scroll-view data-v-dbf1bc2a swiper-tab'])
+Z([3,'tab-bar'])
+Z([[7],[3,'scrollLeft']])
+Z([3,'index'])
+Z([3,'tab'])
+Z([[7],[3,'tabs']])
+Z([3,'tab.id'])
+Z([[6],[[7],[3,'tab']],[3,'id']])
+Z([3,'handleProxy'])
+Z([a,[3,'_view data-v-dbf1bc2a '],[[4],[[5],[[5],[1,'swiper-tab-list']],[[2,'?:'],[[2,'=='],[[7],[3,'currentTab']],[[7],[3,'index']]],[1,'on'],[1,'']]]]])
+Z([[7],[3,'$k']])
+Z([[7],[3,'index']])
+Z([[2,'+'],[1,'jKb-0-'],[[7],[3,'index']]])
+Z(z[9])
+Z([a,[[6],[[7],[3,'tab']],[3,'name']]])
+Z([3,'_view data-v-dbf1bc2a page'])
+Z([3,'_view data-v-dbf1bc2a uni-card'])
+Z([3,'_view data-v-dbf1bc2a uni-list'])
+Z([3,'newsIndex'])
+Z([3,'newsitem'])
+Z([[7],[3,'newsitems']])
+Z(z[20])
+Z([3,'_view data-v-dbf1bc2a uni-list-cell'])
+Z([3,'uni-list-cell-hover'])
+Z([[7],[3,'newsIndex']])
+Z([3,'_view data-v-dbf1bc2a uni-list-cell-navigate uni-navigate-right'])
+Z([a,[3,' '],[[6],[[7],[3,'newsitem']],[3,'news_title']],[3,' ']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
 }
 function gz$gwx_5(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
 __WXML_GLOBAL__.ops_cached.$gwx_5=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'7bacb7da'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
+}
+function gz$gwx_6(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
+__WXML_GLOBAL__.ops_cached.$gwx_6=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'774d2bb6'])
 Z([3,'_view data-v-32a633f2 content'])
@@ -1168,7 +1193,7 @@ Z([3,'邮箱：'])
 Z([3,'handleProxy'])
 Z([3,'_input data-v-32a633f2'])
 Z([[7],[3,'$k']])
-Z([1,'cm4-0'])
+Z([1,'4Og-0'])
 Z([3,'请输入邮箱'])
 Z([3,'text'])
 Z([[7],[3,'email']])
@@ -1176,22 +1201,22 @@ Z([3,'_view data-v-32a633f2 btn-row'])
 Z(z[6])
 Z([3,'_button data-v-32a633f2 primary'])
 Z(z[8])
-Z([1,'ftA-1'])
+Z([1,'PBF-1'])
 Z([3,'primary'])
 Z([3,'提交'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
-}
-function gz$gwx_6(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
-__WXML_GLOBAL__.ops_cached.$gwx_6=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'774d2bb6'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
 }
 function gz$gwx_7(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
 __WXML_GLOBAL__.ops_cached.$gwx_7=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'774d2bb6'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
+}
+function gz$gwx_8(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
+__WXML_GLOBAL__.ops_cached.$gwx_8=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'7bf96be4'])
 Z([3,'_view data-v-294db396 content'])
@@ -1202,7 +1227,7 @@ Z([3,'账号：'])
 Z([3,'handleProxy'])
 Z([3,'_input data-v-294db396'])
 Z([[7],[3,'$k']])
-Z([1,'wAg-0'])
+Z([1,'Utk-0'])
 Z([3,'请输入账号'])
 Z([3,'text'])
 Z([[7],[3,'account']])
@@ -1212,7 +1237,7 @@ Z([3,'密码：'])
 Z(z[6])
 Z(z[7])
 Z(z[8])
-Z([1,'1Df-1'])
+Z([1,'owt-1'])
 Z([3,'true'])
 Z([3,'请输入密码'])
 Z(z[11])
@@ -1223,7 +1248,7 @@ Z([3,'邮箱：'])
 Z(z[6])
 Z(z[7])
 Z(z[8])
-Z([1,'3qv-2'])
+Z([1,'HiP-2'])
 Z([3,'请输入邮箱'])
 Z(z[11])
 Z([[7],[3,'email']])
@@ -1231,60 +1256,103 @@ Z([3,'_view data-v-294db396 btn-row'])
 Z(z[6])
 Z([3,'_button data-v-294db396 primary'])
 Z(z[8])
-Z([1,'Fg5-3'])
+Z([1,'VtP-3'])
 Z([3,'primary'])
 Z([3,'注册'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
-}
-function gz$gwx_8(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
-__WXML_GLOBAL__.ops_cached.$gwx_8=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'7bf96be4'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
 }
 function gz$gwx_9(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
 __WXML_GLOBAL__.ops_cached.$gwx_9=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'2f17d9cc'])
-Z([3,'_view data-v-026305aa content'])
-Z([3,'_view data-v-026305aa btn-row'])
-Z([[2,'!'],[[7],[3,'userInfo']]])
-Z([3,'handleProxy'])
-Z([3,'_button data-v-026305aa primary'])
-Z([[7],[3,'$k']])
-Z([1,'3dr-1'])
-Z([3,'primary'])
-Z([3,'登录'])
-Z(z[4])
-Z([3,'_button data-v-026305aa'])
-Z(z[6])
-Z([1,'Z0P-0'])
-Z([3,'default'])
-Z([3,'退出登录'])
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'7bf96be4'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
 }
 function gz$gwx_10(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
 __WXML_GLOBAL__.ops_cached.$gwx_10=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'2f17d9cc'])
+Z([3,'_view data-v-026305aa content'])
+Z([3,'_view data-v-026305aa page-body'])
+Z([3,'_view data-v-026305aa page-section'])
+Z([3,'_view data-v-026305aa page-body-info'])
+Z([3,'_view data-v-026305aa page-body-title'])
+Z([3,'用户信息'])
+Z([3,'_image data-v-026305aa userinfo-avatar'])
+Z([[6],[[7],[3,'userInfo']],[3,'avatar']])
+Z([3,'_text data-v-026305aa userinfo-nickname'])
+Z([a,[[6],[[7],[3,'userInfo']],[3,'name']]])
+Z([3,'_view data-v-026305aa btn-row'])
+Z([[2,'!'],[[7],[3,'userInfo']]])
+Z([3,'handleProxy'])
+Z([3,'_button data-v-026305aa primary'])
+Z([[7],[3,'$k']])
+Z([1,'yW2-1'])
+Z([3,'primary'])
+Z([3,'登录'])
+Z(z[13])
+Z([3,'_button data-v-026305aa'])
+Z(z[15])
+Z([1,'GRL-0'])
+Z([3,'default'])
+Z([3,'退出登录'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
+}
+function gz$gwx_11(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_11)return __WXML_GLOBAL__.ops_cached.$gwx_11
+__WXML_GLOBAL__.ops_cached.$gwx_11=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'2f17d9cc'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
+})(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);throw e;}
 }}}()
-var x=['./pages/login/login.vue.wxml','./pages/login/login.wxml','/pages/login/login.vue.wxml','./pages/main/main.vue.wxml','./pages/main/main.wxml','/pages/main/main.vue.wxml','./pages/pwd/pwd.vue.wxml','./pages/pwd/pwd.wxml','/pages/pwd/pwd.vue.wxml','./pages/reg/reg.vue.wxml','./pages/reg/reg.wxml','/pages/reg/reg.vue.wxml','./pages/user/user.vue.wxml','./pages/user/user.wxml','/pages/user/user.vue.wxml'];d_[x[0]]={}
-d_[x[0]]["7aad820e"]=function(e,s,r,gg){
+var x=['./components/uni-badge.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','/pages/login/login.vue.wxml','./pages/main/main.vue.wxml','./pages/main/main.wxml','/pages/main/main.vue.wxml','./pages/pwd/pwd.vue.wxml','./pages/pwd/pwd.wxml','/pages/pwd/pwd.vue.wxml','./pages/reg/reg.vue.wxml','./pages/reg/reg.wxml','/pages/reg/reg.vue.wxml','./pages/user/user.vue.wxml','./pages/user/user.wxml','/pages/user/user.vue.wxml'];d_[x[0]]={}
+d_[x[0]]["1893a7b2"]=function(e,s,r,gg){
 var z=gz$gwx_1()
-var b=x[0]+':7aad820e'
+var b=x[0]+':1893a7b2'
+r.wxVkey=b
+gg.f=$gdc(f_["./components/uni-badge.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[0]);return}
+p_[b]=true
+try{
+var oB=_v()
+_(r,oB)
+if(_oz(z,1,e,s,gg)){oB.wxVkey=1
+cs.push("./components/uni-badge.vue.wxml:text:2:4")
+cs.push("./components/uni-badge.vue.wxml:text:2:4")
+var xC=_mz(z,'text',['bindtap',2,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+var oD=_oz(z,6,e,s,gg)
+_(xC,oD)
+cs.pop()
+_(oB,xC)
+cs.pop()
+}
+oB.wxXCkey=1
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m0=function(e,s,r,gg){
+var z=gz$gwx_1()
+return r
+}
+e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
+d_[x[1]]={}
+d_[x[1]]["7aad820e"]=function(e,s,r,gg){
+var z=gz$gwx_2()
+var b=x[1]+':7aad820e'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/login/login.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[0]);return}
+if(p_[b]){_wl(b,x[1]);return}
 p_[b]=true
 try{
 cs.push("./pages/login/login.vue.wxml:view:2:4")
@@ -1399,112 +1467,102 @@ throw err
 p_[b]=false
 return r
 }
-var m0=function(e,s,r,gg){
-var z=gz$gwx_1()
-return r
-}
-e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
-d_[x[1]]={}
 var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
-var xC=e_[x[1]].i
-_ai(xC,x[2],e_,x[1],1,1)
-var oD=_v()
-_(r,oD)
-cs.push("./pages/login/login.wxml:template:1:45")
-var fE=_oz(z,1,e,s,gg)
-var cF=_gd(x[1],fE,e_,d_)
-if(cF){
-var hG=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-oD.wxXCkey=3
-cF(hG,hG,oD,gg)
-gg.f=cur_globalf
-}
-else _w(fE,x[1],1,57)
-cs.pop()
-xC.pop()
 return r
 }
-e_[x[1]]={f:m1,j:[],i:[],ti:[x[2]],ic:[]}
-d_[x[3]]={}
-d_[x[3]]["7bacb7da"]=function(e,s,r,gg){
+e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
+d_[x[2]]={}
+var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
-var b=x[3]+':7bacb7da'
+var oD=e_[x[2]].i
+_ai(oD,x[3],e_,x[2],1,1)
+var fE=_v()
+_(r,fE)
+cs.push("./pages/login/login.wxml:template:1:45")
+var cF=_oz(z,1,e,s,gg)
+var hG=_gd(x[2],cF,e_,d_)
+if(hG){
+var oH=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+fE.wxXCkey=3
+hG(oH,oH,fE,gg)
+gg.f=cur_globalf
+}
+else _w(cF,x[2],1,57)
+cs.pop()
+oD.pop()
+return r
+}
+e_[x[2]]={f:m2,j:[],i:[],ti:[x[3]],ic:[]}
+d_[x[4]]={}
+d_[x[4]]["7bacb7da"]=function(e,s,r,gg){
+var z=gz$gwx_4()
+var b=x[4]+':7bacb7da'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/main/main.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[3]);return}
+if(p_[b]){_wl(b,x[4]);return}
 p_[b]=true
 try{
 cs.push("./pages/main/main.vue.wxml:view:2:4")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
-var xC=_v()
-_(oB,xC)
-if(_oz(z,2,e,s,gg)){xC.wxVkey=1
-cs.push("./pages/main/main.vue.wxml:view:3:6")
-cs.push("./pages/main/main.vue.wxml:view:3:6")
-var oD=_n('view')
-_rz(z,oD,'class',3,e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:4:8")
-var fE=_n('view')
-_rz(z,fE,'class',4,e,s,gg)
-var cF=_oz(z,5,e,s,gg)
-_(fE,cF)
-cs.pop()
-_(oD,fE)
-cs.push("./pages/main/main.vue.wxml:view:5:8")
-var hG=_n('view')
-_rz(z,hG,'class',6,e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:6:10")
-var oH=_n('view')
-_rz(z,oH,'class',7,e,s,gg)
-var cI=_oz(z,8,e,s,gg)
-_(oH,cI)
-cs.pop()
-_(hG,oH)
-cs.push("./pages/main/main.vue.wxml:view:7:10")
-var oJ=_n('view')
-_rz(z,oJ,'class',9,e,s,gg)
-var lK=_oz(z,10,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:scroll-view:3:6")
+var xC=_mz(z,'scroll-view',['scrollX',-1,'class',2,'id',1,'scrollLeft',2],[],e,s,gg)
+var oD=_v()
+_(xC,oD)
+cs.push("./pages/main/main.vue.wxml:block:4:8")
+var fE=function(hG,cF,oH,gg){
+cs.push("./pages/main/main.vue.wxml:block:4:8")
+cs.push("./pages/main/main.vue.wxml:view:5:10")
+var oJ=_mz(z,'view',['bindtap',10,'class',1,'data-comkey',2,'data-current',3,'data-eventid',4,'id',5],[],hG,cF,gg)
+var lK=_oz(z,16,hG,cF,gg)
 _(oJ,lK)
 cs.pop()
-_(hG,oJ)
+_(oH,oJ)
 cs.pop()
-_(oD,hG)
-cs.pop()
-_(xC,oD)
-cs.pop()
+return oH
 }
-else{xC.wxVkey=2
-cs.push("./pages/main/main.vue.wxml:view:10:6")
-cs.push("./pages/main/main.vue.wxml:view:10:6")
+oD.wxXCkey=2
+_2z(z,7,fE,e,s,gg,oD,'tab','index','tab.id')
+cs.pop()
+cs.pop()
+_(oB,xC)
+cs.push("./pages/main/main.vue.wxml:view:8:6")
 var aL=_n('view')
-_rz(z,aL,'class',11,e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:11:8")
+_rz(z,aL,'class',17,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:view:9:8")
 var tM=_n('view')
-_rz(z,tM,'class',12,e,s,gg)
-var eN=_oz(z,13,e,s,gg)
+_rz(z,tM,'class',18,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:view:10:10")
+var eN=_n('view')
+_rz(z,eN,'class',19,e,s,gg)
+var bO=_v()
+_(eN,bO)
+cs.push("./pages/main/main.vue.wxml:view:11:12")
+var oP=function(oR,xQ,fS,gg){
+cs.push("./pages/main/main.vue.wxml:view:11:12")
+var hU=_mz(z,'view',['class',24,'hoverClass',1,'key',2],[],oR,xQ,gg)
+cs.push("./pages/main/main.vue.wxml:view:12:14")
+var oV=_n('view')
+_rz(z,oV,'class',27,oR,xQ,gg)
+var cW=_oz(z,28,oR,xQ,gg)
+_(oV,cW)
+cs.pop()
+_(hU,oV)
+cs.pop()
+_(fS,hU)
+return fS
+}
+bO.wxXCkey=2
+_2z(z,22,oP,e,s,gg,bO,'newsitem','newsIndex','newsIndex')
+cs.pop()
+cs.pop()
 _(tM,eN)
 cs.pop()
 _(aL,tM)
-cs.push("./pages/main/main.vue.wxml:view:12:8")
-var bO=_n('view')
-_rz(z,bO,'class',14,e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:13:10")
-var oP=_n('view')
-_rz(z,oP,'class',15,e,s,gg)
-var xQ=_oz(z,16,e,s,gg)
-_(oP,xQ)
 cs.pop()
-_(bO,oP)
-cs.pop()
-_(aL,bO)
-cs.pop()
-_(xC,aL)
-cs.pop()
-}
-xC.wxXCkey=1
+_(oB,aL)
 cs.pop()
 _(r,oB)
 }catch(err){
@@ -1514,41 +1572,41 @@ throw err
 p_[b]=false
 return r
 }
-var m2=function(e,s,r,gg){
-var z=gz$gwx_3()
-return r
-}
-e_[x[3]]={f:m2,j:[],i:[],ti:[],ic:[]}
-d_[x[4]]={}
 var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
-var oJ=e_[x[4]].i
-_ai(oJ,x[5],e_,x[4],1,1)
-var lK=_v()
-_(r,lK)
-cs.push("./pages/main/main.wxml:template:1:43")
-var aL=_oz(z,1,e,s,gg)
-var tM=_gd(x[4],aL,e_,d_)
-if(tM){
-var eN=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-lK.wxXCkey=3
-tM(eN,eN,lK,gg)
-gg.f=cur_globalf
-}
-else _w(aL,x[4],1,55)
-cs.pop()
-oJ.pop()
 return r
 }
-e_[x[4]]={f:m3,j:[],i:[],ti:[x[5]],ic:[]}
-d_[x[6]]={}
-d_[x[6]]["774d2bb6"]=function(e,s,r,gg){
+e_[x[4]]={f:m3,j:[],i:[],ti:[],ic:[]}
+d_[x[5]]={}
+var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
-var b=x[6]+':774d2bb6'
+var lK=e_[x[5]].i
+_ai(lK,x[6],e_,x[5],1,1)
+var aL=_v()
+_(r,aL)
+cs.push("./pages/main/main.wxml:template:1:43")
+var tM=_oz(z,1,e,s,gg)
+var eN=_gd(x[5],tM,e_,d_)
+if(eN){
+var bO=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+aL.wxXCkey=3
+eN(bO,bO,aL,gg)
+gg.f=cur_globalf
+}
+else _w(tM,x[5],1,55)
+cs.pop()
+lK.pop()
+return r
+}
+e_[x[5]]={f:m4,j:[],i:[],ti:[x[6]],ic:[]}
+d_[x[7]]={}
+d_[x[7]]["774d2bb6"]=function(e,s,r,gg){
+var z=gz$gwx_6()
+var b=x[7]+':774d2bb6'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/pwd/pwd.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[6]);return}
+if(p_[b]){_wl(b,x[7]);return}
 p_[b]=true
 try{
 cs.push("./pages/pwd/pwd.vue.wxml:view:2:4")
@@ -1595,41 +1653,41 @@ throw err
 p_[b]=false
 return r
 }
-var m4=function(e,s,r,gg){
-var z=gz$gwx_5()
-return r
-}
-e_[x[6]]={f:m4,j:[],i:[],ti:[],ic:[]}
-d_[x[7]]={}
 var m5=function(e,s,r,gg){
 var z=gz$gwx_6()
-var xQ=e_[x[7]].i
-_ai(xQ,x[8],e_,x[7],1,1)
-var oR=_v()
-_(r,oR)
-cs.push("./pages/pwd/pwd.wxml:template:1:41")
-var fS=_oz(z,1,e,s,gg)
-var cT=_gd(x[7],fS,e_,d_)
-if(cT){
-var hU=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-oR.wxXCkey=3
-cT(hU,hU,oR,gg)
-gg.f=cur_globalf
-}
-else _w(fS,x[7],1,53)
-cs.pop()
-xQ.pop()
 return r
 }
-e_[x[7]]={f:m5,j:[],i:[],ti:[x[8]],ic:[]}
-d_[x[9]]={}
-d_[x[9]]["7bf96be4"]=function(e,s,r,gg){
+e_[x[7]]={f:m5,j:[],i:[],ti:[],ic:[]}
+d_[x[8]]={}
+var m6=function(e,s,r,gg){
 var z=gz$gwx_7()
-var b=x[9]+':7bf96be4'
+var oR=e_[x[8]].i
+_ai(oR,x[9],e_,x[8],1,1)
+var fS=_v()
+_(r,fS)
+cs.push("./pages/pwd/pwd.wxml:template:1:41")
+var cT=_oz(z,1,e,s,gg)
+var hU=_gd(x[8],cT,e_,d_)
+if(hU){
+var oV=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+fS.wxXCkey=3
+hU(oV,oV,fS,gg)
+gg.f=cur_globalf
+}
+else _w(cT,x[8],1,53)
+cs.pop()
+oR.pop()
+return r
+}
+e_[x[8]]={f:m6,j:[],i:[],ti:[x[9]],ic:[]}
+d_[x[10]]={}
+d_[x[10]]["7bf96be4"]=function(e,s,r,gg){
+var z=gz$gwx_8()
+var b=x[10]+':7bf96be4'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/reg/reg.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[9]);return}
+if(p_[b]){_wl(b,x[10]);return}
 p_[b]=true
 try{
 cs.push("./pages/reg/reg.vue.wxml:view:2:4")
@@ -1708,41 +1766,41 @@ throw err
 p_[b]=false
 return r
 }
-var m6=function(e,s,r,gg){
-var z=gz$gwx_7()
-return r
-}
-e_[x[9]]={f:m6,j:[],i:[],ti:[],ic:[]}
-d_[x[10]]={}
 var m7=function(e,s,r,gg){
 var z=gz$gwx_8()
-var oX=e_[x[10]].i
-_ai(oX,x[11],e_,x[10],1,1)
-var lY=_v()
-_(r,lY)
-cs.push("./pages/reg/reg.wxml:template:1:41")
-var aZ=_oz(z,1,e,s,gg)
-var t1=_gd(x[10],aZ,e_,d_)
-if(t1){
-var e2=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-lY.wxXCkey=3
-t1(e2,e2,lY,gg)
-gg.f=cur_globalf
-}
-else _w(aZ,x[10],1,53)
-cs.pop()
-oX.pop()
 return r
 }
-e_[x[10]]={f:m7,j:[],i:[],ti:[x[11]],ic:[]}
-d_[x[12]]={}
-d_[x[12]]["2f17d9cc"]=function(e,s,r,gg){
+e_[x[10]]={f:m7,j:[],i:[],ti:[],ic:[]}
+d_[x[11]]={}
+var m8=function(e,s,r,gg){
 var z=gz$gwx_9()
-var b=x[12]+':2f17d9cc'
+var lY=e_[x[11]].i
+_ai(lY,x[12],e_,x[11],1,1)
+var aZ=_v()
+_(r,aZ)
+cs.push("./pages/reg/reg.wxml:template:1:41")
+var t1=_oz(z,1,e,s,gg)
+var e2=_gd(x[11],t1,e_,d_)
+if(e2){
+var b3=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+aZ.wxXCkey=3
+e2(b3,b3,aZ,gg)
+gg.f=cur_globalf
+}
+else _w(t1,x[11],1,53)
+cs.pop()
+lY.pop()
+return r
+}
+e_[x[11]]={f:m8,j:[],i:[],ti:[x[12]],ic:[]}
+d_[x[13]]={}
+d_[x[13]]["2f17d9cc"]=function(e,s,r,gg){
+var z=gz$gwx_10()
+var b=x[13]+':2f17d9cc'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/user/user.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[12]);return}
+if(p_[b]){_wl(b,x[13]);return}
 p_[b]=true
 try{
 cs.push("./pages/user/user.vue.wxml:view:2:4")
@@ -1751,31 +1809,64 @@ _rz(z,oB,'class',1,e,s,gg)
 cs.push("./pages/user/user.vue.wxml:view:3:6")
 var xC=_n('view')
 _rz(z,xC,'class',2,e,s,gg)
-var oD=_v()
-_(xC,oD)
-if(_oz(z,3,e,s,gg)){oD.wxVkey=1
-cs.push("./pages/user/user.vue.wxml:button:4:8")
-cs.push("./pages/user/user.vue.wxml:button:4:8")
-var fE=_mz(z,'button',['bindtap',4,'class',1,'data-comkey',2,'data-eventid',3,'type',4],[],e,s,gg)
-var cF=_oz(z,9,e,s,gg)
+cs.push("./pages/user/user.vue.wxml:view:4:8")
+var oD=_n('view')
+_rz(z,oD,'class',3,e,s,gg)
+cs.push("./pages/user/user.vue.wxml:view:5:10")
+var fE=_n('view')
+_rz(z,fE,'class',4,e,s,gg)
+cs.push("./pages/user/user.vue.wxml:view:6:12")
+var cF=_n('view')
+_rz(z,cF,'class',5,e,s,gg)
+var hG=_oz(z,6,e,s,gg)
+_(cF,hG)
+cs.pop()
 _(fE,cF)
+cs.push("./pages/user/user.vue.wxml:image:7:12")
+var oH=_mz(z,'image',['class',7,'src',1],[],e,s,gg)
+cs.pop()
+_(fE,oH)
+cs.push("./pages/user/user.vue.wxml:text:8:12")
+var cI=_n('text')
+_rz(z,cI,'class',9,e,s,gg)
+var oJ=_oz(z,10,e,s,gg)
+_(cI,oJ)
+cs.pop()
+_(fE,cI)
 cs.pop()
 _(oD,fE)
 cs.pop()
-}
-else{oD.wxVkey=2
-cs.push("./pages/user/user.vue.wxml:button:5:8")
-cs.push("./pages/user/user.vue.wxml:button:5:8")
-var hG=_mz(z,'button',['bindtap',10,'class',1,'data-comkey',2,'data-eventid',3,'type',4],[],e,s,gg)
-var oH=_oz(z,15,e,s,gg)
-_(hG,oH)
-cs.pop()
-_(oD,hG)
-cs.pop()
-}
-oD.wxXCkey=1
+_(xC,oD)
 cs.pop()
 _(oB,xC)
+cs.push("./pages/user/user.vue.wxml:view:12:6")
+var lK=_n('view')
+_rz(z,lK,'class',11,e,s,gg)
+var aL=_v()
+_(lK,aL)
+if(_oz(z,12,e,s,gg)){aL.wxVkey=1
+cs.push("./pages/user/user.vue.wxml:button:13:8")
+cs.push("./pages/user/user.vue.wxml:button:13:8")
+var tM=_mz(z,'button',['bindtap',13,'class',1,'data-comkey',2,'data-eventid',3,'type',4],[],e,s,gg)
+var eN=_oz(z,18,e,s,gg)
+_(tM,eN)
+cs.pop()
+_(aL,tM)
+cs.pop()
+}
+else{aL.wxVkey=2
+cs.push("./pages/user/user.vue.wxml:button:14:8")
+cs.push("./pages/user/user.vue.wxml:button:14:8")
+var bO=_mz(z,'button',['bindtap',19,'class',1,'data-comkey',2,'data-eventid',3,'type',4],[],e,s,gg)
+var oP=_oz(z,24,e,s,gg)
+_(bO,oP)
+cs.pop()
+_(aL,bO)
+cs.pop()
+}
+aL.wxXCkey=1
+cs.pop()
+_(oB,lK)
 cs.pop()
 _(r,oB)
 }catch(err){
@@ -1785,34 +1876,34 @@ throw err
 p_[b]=false
 return r
 }
-var m8=function(e,s,r,gg){
-var z=gz$gwx_9()
-return r
-}
-e_[x[12]]={f:m8,j:[],i:[],ti:[],ic:[]}
-d_[x[13]]={}
 var m9=function(e,s,r,gg){
 var z=gz$gwx_10()
-var x5=e_[x[13]].i
-_ai(x5,x[14],e_,x[13],1,1)
-var o6=_v()
-_(r,o6)
-cs.push("./pages/user/user.wxml:template:1:43")
-var f7=_oz(z,1,e,s,gg)
-var c8=_gd(x[13],f7,e_,d_)
-if(c8){
-var h9=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-o6.wxXCkey=3
-c8(h9,h9,o6,gg)
-gg.f=cur_globalf
-}
-else _w(f7,x[13],1,55)
-cs.pop()
-x5.pop()
 return r
 }
-e_[x[13]]={f:m9,j:[],i:[],ti:[x[14]],ic:[]}
+e_[x[13]]={f:m9,j:[],i:[],ti:[],ic:[]}
+d_[x[14]]={}
+var m10=function(e,s,r,gg){
+var z=gz$gwx_11()
+var o6=e_[x[14]].i
+_ai(o6,x[15],e_,x[14],1,1)
+var f7=_v()
+_(r,f7)
+cs.push("./pages/user/user.wxml:template:1:43")
+var c8=_oz(z,1,e,s,gg)
+var h9=_gd(x[14],c8,e_,d_)
+if(h9){
+var o0=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+f7.wxXCkey=3
+h9(o0,o0,f7,gg)
+gg.f=cur_globalf
+}
+else _w(c8,x[14],1,55)
+cs.pop()
+o6.pop()
+return r
+}
+e_[x[14]]={f:m10,j:[],i:[],ti:[x[15]],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
@@ -1871,7 +1962,7 @@ var setCssToHead = function(file, _xcInvalid, info) {
 var Ca = {};
 var css_id;
 var info = info || {};
-var _C= [["body { min-height: 100%; display: -webkit-box; display: -webkit-flex; display: flex; }\n.",[1],"content { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; background-color: #efeff4; padding: ",[0,20],"; }\n.",[1],"input-group { background-color: #ffffff; margin-top: ",[0,40],"; position: relative; }\n.",[1],"input-group::before { position: absolute; right: 0; top: 0; left: 0; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(.5); transform: scaleY(.5); background-color: #c8c7cc; }\n.",[1],"input-group::after { position: absolute; right: 0; bottom: 0; left: 0; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(.5); transform: scaleY(.5); background-color: #c8c7cc; }\n.",[1],"input-row { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; position: relative; }\n.",[1],"input-row .",[1],"title { width: 20%; height: ",[0,50],"; min-height: ",[0,50],"; padding: ",[0,15]," 0; padding-left: ",[0,30],"; line-height: ",[0,50],"; }\n.",[1],"input-row .",[1],"_input { width: 80%; height: ",[0,50],"; min-height: ",[0,50],"; padding: ",[0,15]," 0; padding-right: ",[0,30],"; line-height: ",[0,50],"; }\n.",[1],"input-row.",[1],"border::after { position: absolute; right: 0; bottom: 0; left: ",[0,15],"; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(.5); transform: scaleY(.5); background-color: #c8c7cc; }\n.",[1],"btn-row { margin-top: ",[0,50],"; padding: ",[0,20],"; }\n.",[1],"_button.",[1],"primary { background-color: #0faeff; }\n",],];
+var _C= [["@font-face { font-family: uniicons; font-weight: normal; font-style: normal; src: url(\x27https://img-cdn-qiniu.dcloud.net.cn/fonts/uni.ttf\x27) format(\x27truetype\x27); }\n.",[1],"uni-flex { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; }\n.",[1],"uni-flex-item { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; }\n.",[1],"uni-row { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; }\n.",[1],"uni-column { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; }\n.",[1],"uni-h6 { font-size: ",[0,24],"; color: #8f8f94; }\n.",[1],"uni-h5 { font-size: ",[0,28],"; color: #8f8f94; }\n.",[1],"uni-h4 { font-size: ",[0,36],"; }\n.",[1],"uni-h3 { font-size: ",[0,48],"; font-weight: 600; }\n.",[1],"uni-h2 { font-size: ",[0,60],"; font-weight: 600; }\n.",[1],"uni-h1 { font-size: ",[0,72],"; font-weight: 600; }\n.",[1],"uni-ellipsis { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }\n.",[1],"uni-input { height: ",[0,50],"; min-height: ",[0,50],"; padding: ",[0,15]," 0; line-height: ",[0,50],"; }\n.",[1],"uni-label { width: ",[0,210],"; word-wrap: break-word; word-break: break-all; }\n.",[1],"uni-badge, .",[1],"uni-badge-default { font-family: \x27Helvetica Neue\x27,Helvetica,sans-serif; font-size: ",[0,12],"; line-height: 1; display: inline-block; padding: ",[0,3]," ",[0,6],"; color: #333; border-radius: ",[0,100],"; background-color: rgba(0, 0, 0, .15); }\n.",[1],"uni-badge.",[1],"uni-badge-inverted { padding: 0 ",[0,5]," 0 0; color: #929292; background-color: transparent; }\n.",[1],"uni-badge-primary { color: #fff; background-color: #007aff; }\n.",[1],"uni-badge-blue.",[1],"uni-badge-inverted, .",[1],"uni-badge-primary.",[1],"uni-badge-inverted { color: #007aff; background-color: transparent; }\n.",[1],"uni-badge-green, .",[1],"uni-badge-success { color: #fff; background-color: #4cd964; }\n.",[1],"uni-badge-green.",[1],"uni-badge-inverted, .",[1],"uni-badge-success.",[1],"uni-badge-inverted { color: #4cd964; background-color: transparent; }\n.",[1],"uni-badge-warning, .",[1],"uni-badge-yellow { color: #fff; background-color: #f0ad4e; }\n.",[1],"uni-badge-warning.",[1],"uni-badge-inverted, .",[1],"uni-badge-yellow.",[1],"uni-badge-inverted { color: #f0ad4e; background-color: transparent; }\n.",[1],"uni-badge-danger, .",[1],"uni-badge-red { color: #fff; background-color: #dd524d; }\n.",[1],"uni-badge-danger.",[1],"uni-badge-inverted, .",[1],"uni-badge-red.",[1],"uni-badge-inverted { color: #dd524d; background-color: transparent; }\n.",[1],"uni-badge-purple, .",[1],"uni-badge-royal { color: #fff; background-color: #8a6de9; }\n.",[1],"uni-badge-purple.",[1],"uni-badge-inverted, .",[1],"uni-badge-royal.",[1],"uni-badge-inverted { color: #8a6de9; background-color: transparent; }\n.",[1],"uni-collapse-content { height: 0; width: 100%; overflow: hidden; }\n.",[1],"uni-collapse-content.",[1],"uni-active { height: auto; }\n.",[1],"uni-card { background: #fff; border-radius: ",[0,8],"; margin: ",[0,20],"; position: relative; box-shadow: 0 ",[0,2]," ",[0,4]," rgba(0, 0, 0, .3); }\n.",[1],"uni-card-content { font-size: ",[0,30],"; }\n.",[1],"uni-card-content-inner { position: relative; padding: ",[0,30],"; }\n.",[1],"uni-card-footer, .",[1],"uni-card-header { position: relative; display: -webkit-box; display: -webkit-flex; display: flex; min-height: ",[0,50],"; padding: ",[0,20]," ",[0,30],"; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; align-items: center; }\n.",[1],"uni-card-header { font-size: ",[0,36],"; }\n.",[1],"uni-card-footer { color: #6d6d72; }\n.",[1],"uni-card-footer:before, .",[1],"uni-card-header:after { position: absolute; top: 0; right: 0; left: 0; height: ",[0,2],"; content: \x27\x27; -webkit-transform: scaleY(.5); transform: scaleY(.5); background-color: #c8c7cc; }\n.",[1],"uni-card-header:after { top: auto; bottom: 0; }\n.",[1],"uni-card-media { -webkit-box-pack: start; -webkit-justify-content: flex-start; justify-content: flex-start; }\n.",[1],"uni-card-media-logo { height: ",[0,84],"; width: ",[0,84],"; margin-right: ",[0,20],"; }\n.",[1],"uni-card-media-body { height: ",[0,84],"; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-align: start; -webkit-align-items: flex-start; align-items: flex-start; }\n.",[1],"uni-card-media-text-top { line-height: ",[0,36],"; font-size: ",[0,34],"; }\n.",[1],"uni-card-media-text-bottom { line-height: ",[0,30],"; font-size: ",[0,28],"; color: #8f8f94; }\n.",[1],"uni-card-link { color: #007AFF; }\n.",[1],"uni-list { background-color: #FFFFFF; position: relative; width: 100%; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; }\n.",[1],"uni-list:after { position: absolute; z-index: 10; right: 0; bottom: 0; left: 0; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(.5); transform: scaleY(.5); background-color: #c8c7cc; }\n.",[1],"uni-list:before { position: absolute; z-index: 10; right: 0; top: 0; left: 0; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(.5); transform: scaleY(.5); background-color: #c8c7cc; }\n.",[1],"uni-list-cell { position: relative; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; align-items: center; }\n.",[1],"uni-list-cell-hover { background-color: #eee; }\n.",[1],"uni-list-cell-pd { padding: ",[0,22]," ",[0,30],"; }\n.",[1],"uni-list-cell-left { padding: 0 ",[0,30],"; }\n.",[1],"uni-list-cell-db, .",[1],"uni-list-cell-right { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; }\n.",[1],"uni-list-cell:after { position: absolute; right: 0; bottom: 0; left: ",[0,30],"; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(.5); transform: scaleY(.5); background-color: #c8c7cc; }\n.",[1],"uni-list .",[1],"uni-list-cell:last-child:after { height: ",[0,0],"; }\n.",[1],"uni-list-cell-last.",[1],"uni-list-cell:after { height: ",[0,0],"; }\n.",[1],"uni-list-cell-divider { position: relative; display: -webkit-box; display: -webkit-flex; display: flex; color: #999; background-color: #f7f7f7; padding: ",[0,10]," ",[0,20],"; }\n.",[1],"uni-list-cell-divider:before { position: absolute; right: 0; top: 0; left: ",[0,0],"; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(.5); transform: scaleY(.5); background-color: #c8c7cc; }\n.",[1],"uni-list-cell-divider:after { position: absolute; right: 0; bottom: 0; left: ",[0,0],"; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(.5); transform: scaleY(.5); background-color: #c8c7cc; }\n.",[1],"uni-list-cell-navigate { padding: ",[0,22]," ",[0,30],"; line-height: ",[0,48],"; position: relative; display: -webkit-box; display: -webkit-flex; display: flex; box-sizing: border-box; width: 100%; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; align-items: center; }\n.",[1],"uni-list-cell-navigate { padding-right: ",[0,36],"; }\n.",[1],"uni-navigate-badge { padding-right: ",[0,50],"; }\n.",[1],"uni-list-cell-navigate.",[1],"uni-navigate-right:after { font-family: uniicons; content: \x27\\E583\x27; position: absolute; right: ",[0,24],"; top: 50%; color: #bbb; -webkit-transform: translateY(-50%); transform: translateY(-50%); }\n.",[1],"uni-list-cell-navigate.",[1],"uni-navigate-bottom:after { font-family: uniicons; content: \x27\\E581\x27; position: absolute; right: ",[0,24],"; top: 50%; color: #bbb; -webkit-transform: translateY(-50%); transform: translateY(-50%); }\n.",[1],"uni-list-cell-navigate.",[1],"uni-navigate-bottom.",[1],"uni-active:after { font-family: uniicons; content: \x27\\E580\x27; position: absolute; right: ",[0,24],"; top: 50%; color: #bbb; -webkit-transform: translateY(-50%); transform: translateY(-50%); }\n.",[1],"uni-collapse.",[1],"uni-list-cell { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; }\n.",[1],"uni-list-cell-navigate.",[1],"uni-active { background: #eee; }\n.",[1],"uni-list.",[1],"uni-collapse { box-sizing: border-box; height: 0; overflow: hidden; }\n.",[1],"uni-collapse .",[1],"uni-list-cell { padding-left: ",[0,36],"; }\n.",[1],"uni-collapse .",[1],"uni-list-cell:after { left: ",[0,52],"; }\n.",[1],"uni-list.",[1],"uni-active { height: auto; }\n.",[1],"uni-triplex-row { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; width: 100%; box-sizing: border-box; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; padding: ",[0,22]," ",[0,30],"; }\n.",[1],"uni-triplex-right, .",[1],"uni-triplex-left { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; }\n.",[1],"uni-triplex-left { width: 84%; }\n.",[1],"uni-triplex-right { width: 16%; text-align: right; }\n.",[1],"uni-media-list { padding: ",[0,22]," ",[0,30],"; box-sizing: border-box; display: -webkit-box; display: -webkit-flex; display: flex; width: 100%; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; }\n.",[1],"uni-navigate-right.",[1],"uni-media-list { padding-right: ",[0,74],"; }\n.",[1],"uni-pull-right { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -webkit-flex-direction: row-reverse; flex-direction: row-reverse; }\n.",[1],"uni-pull-right\x3e.",[1],"uni-media-list-logo { margin-right: ",[0,0],"; margin-left: ",[0,20],"; }\n.",[1],"uni-media-list-logo { height: ",[0,84],"; width: ",[0,84],"; margin-right: ",[0,20],"; }\n.",[1],"uni-media-list-logo wx-image { height: 100%; width: 100%; }\n.",[1],"uni-media-list-body { height: ",[0,84],"; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-align: start; -webkit-align-items: flex-start; align-items: flex-start; overflow: hidden; }\n.",[1],"uni-media-list-text-top { width: 100%; line-height: ",[0,36],"; font-size: ",[0,34],"; }\n.",[1],"uni-media-list-text-bottom { width: 100%; line-height: ",[0,30],"; font-size: ",[0,28],"; color: #8f8f94; }\n.",[1],"uni-grid-9 { background: #f2f2f2; width: ",[0,750],"; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; -webkit-flex-wrap: wrap; flex-wrap: wrap; border-top: ",[0,2]," solid #eee; }\n.",[1],"uni-grid-9-item { width: ",[0,250],"; height: ",[0,200],"; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center; border-bottom: ",[0,2]," solid; border-right: ",[0,2]," solid; border-color: #eee; box-sizing: border-box; }\n.",[1],"no-border-right { border-right: none; }\n.",[1],"uni-grid-9-image { width: ",[0,100],"; height: ",[0,100],"; }\n.",[1],"uni-grid-9-text { width: ",[0,250],"; line-height: ",[0,4],"; height: ",[0,40],"; text-align: center; font-size: ",[0,30],"; }\n.",[1],"uni-grid-9-item-hover { background: rgba(0, 0, 0, 0.1); }\n.",[1],"uni-uploader { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; }\n.",[1],"uni-uploader-head { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; }\n.",[1],"uni-uploader-info { color: #B2B2B2; }\n.",[1],"uni-uploader-body { margin-top: ",[0,16],"; overflow: hidden; }\n.",[1],"uni-uploader__file { float: left; margin-right: ",[0,18],"; margin-bottom: ",[0,18],"; }\n.",[1],"uni-uploader__img { display: block; width: ",[0,158],"; height: ",[0,158],"; }\n.",[1],"uni-uploader__input-box { float: left; position: relative; margin-right: ",[0,18],"; margin-bottom: ",[0,18],"; width: ",[0,154],"; height: ",[0,154],"; border: ",[0,2]," solid #D9D9D9; }\n.",[1],"uni-uploader__input-box:before, .",[1],"uni-uploader__input-box:after { content: \x22 \x22; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background-color: #D9D9D9; }\n.",[1],"uni-uploader__input-box:before { width: ",[0,4],"; height: ",[0,79],"; }\n.",[1],"uni-uploader__input-box:after { width: ",[0,79],"; height: ",[0,4],"; }\n.",[1],"uni-uploader__input-box:active { border-color: #999999; }\n.",[1],"uni-uploader__input-box:active:before, .",[1],"uni-uploader__input-box:active:after { background-color: #999999; }\n.",[1],"uni-uploader__input { position: absolute; z-index: 1; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; }\n.",[1],"feedback-title { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; align-items: center; padding: ",[0,20],"; color: #8f8f94; font-size: ",[0,28],"; }\n.",[1],"feedback-star-view.",[1],"feedback-title { -webkit-box-pack: start; -webkit-justify-content: flex-start; justify-content: flex-start; margin: 0; }\n.",[1],"feedback-quick { position: relative; padding-right: ",[0,40],"; }\n.",[1],"feedback-quick:after { font-family: uniicons; font-size: ",[0,40],"; content: \x27\\E581\x27; position: absolute; right: 0; top: 50%; color: #bbb; -webkit-transform: translateY(-50%); transform: translateY(-50%); }\n.",[1],"feedback-body { background: #fff; }\n.",[1],"feedback-textare { height: ",[0,200],"; font-size: ",[0,34],"; line-height: ",[0,50],"; width: 100%; box-sizing: border-box; padding: ",[0,20]," ",[0,30]," 0; }\n.",[1],"feedback-input { font-size: ",[0,34],"; height: ",[0,50],"; min-height: ",[0,50],"; padding: ",[0,15]," ",[0,20],"; line-height: ",[0,50],"; }\n.",[1],"feedback-uploader { padding: ",[0,22]," ",[0,20],"; }\n.",[1],"feedback-star { font-family: uniicons; font-size: ",[0,40],"; margin-left: ",[0,6],"; }\n.",[1],"feedback-star-view { margin-left: ",[0,20],"; }\n.",[1],"feedback-star:after { content: \x27\\E408\x27; }\n.",[1],"feedback-star.",[1],"active { color: #FFB400; }\n.",[1],"feedback-star.",[1],"active:after { content: \x27\\E438\x27; }\n.",[1],"feedback-submit { background: #007AFF; color: #FFFFFF; margin: ",[0,20],"; }\nbody { min-height: 100%; display: -webkit-box; display: -webkit-flex; display: flex; }\n.",[1],"content { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; background-color: #efeff4; padding: ",[0,20],"; }\n.",[1],"input-group { background-color: #ffffff; margin-top: ",[0,40],"; position: relative; }\n.",[1],"input-group::before { position: absolute; right: 0; top: 0; left: 0; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(.5); transform: scaleY(.5); background-color: #c8c7cc; }\n.",[1],"input-group::after { position: absolute; right: 0; bottom: 0; left: 0; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(.5); transform: scaleY(.5); background-color: #c8c7cc; }\n.",[1],"input-row { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; position: relative; }\n.",[1],"input-row .",[1],"title { width: 20%; height: ",[0,50],"; min-height: ",[0,50],"; padding: ",[0,15]," 0; padding-left: ",[0,30],"; line-height: ",[0,50],"; }\n.",[1],"input-row .",[1],"_input { width: 80%; height: ",[0,50],"; min-height: ",[0,50],"; padding: ",[0,15]," 0; padding-right: ",[0,30],"; line-height: ",[0,50],"; }\n.",[1],"input-row.",[1],"border::after { position: absolute; right: 0; bottom: 0; left: ",[0,15],"; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(.5); transform: scaleY(.5); background-color: #c8c7cc; }\n.",[1],"btn-row { margin-top: ",[0,50],"; padding: ",[0,20],"; }\n.",[1],"_button.",[1],"primary { background-color: #0faeff; }\n",],];
 function makeup(file, opt) {
 var _n = typeof(file) === "number";
 if ( _n && Ca.hasOwnProperty(file)) return "";

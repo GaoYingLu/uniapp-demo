@@ -2,10 +2,10 @@
 <import src="/components/uni-icon.vue.wxml" />
 <template name="175942ba">
   <view class="_view data-v-27f69bc9 page">
-    <template data="{{...$root['0'], ...$root[$kk+'tXj-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'YAu-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-27f69bc9 flex-container">
       <view class="_view data-v-27f69bc9 icon-item" wx:key="index" key="{{index}}" wx:for="{{iconClassList}}" wx:for-index="index" wx:for-item="item">
-        <template bindtap="handleProxy" data-eventid="{{'IOF-0-'+index}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'tMl-1-'+index],$root}}" is="20707757"></template>
+        <template bindtap="handleProxy" data-eventid="{{'uIx-0-'+index}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'52l-1-'+index],$root}}" is="20707757"></template>
       </view>
     </view>
   </view>

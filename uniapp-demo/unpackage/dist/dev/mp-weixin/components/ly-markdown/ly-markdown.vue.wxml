@@ -3,29 +3,29 @@
   <view class="_view data-v-eb0870e2">
     <view class="_view data-v-eb0870e2">
       <view class="_view data-v-eb0870e2 toolbar">
-        <view class="_view data-v-eb0870e2 iconfont icon-bold" bindtap="handleProxy" data-eventid="{{'Wqe-0'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-italic" bindtap="handleProxy" data-eventid="{{'jNf-1'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-xiahuaxian1" bindtap="handleProxy" data-eventid="{{'UAD-2'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-underline" bindtap="handleProxy" data-eventid="{{'I8q-3'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-strike" bindtap="handleProxy" data-eventid="{{'fNu-4'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-sup" bindtap="handleProxy" data-eventid="{{'wmD-5'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-sub" bindtap="handleProxy" data-eventid="{{'xD7-6'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-alignleft" bindtap="handleProxy" data-eventid="{{'n2g-7'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-aligncenter" bindtap="handleProxy" data-eventid="{{'13P-8'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-alignright" bindtap="handleProxy" data-eventid="{{'VCM-9'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-link" bindtap="handleProxy" data-eventid="{{'8MN-10'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-image" bindtap="handleProxy" data-eventid="{{'yBr-11'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-code" bindtap="handleProxy" data-eventid="{{'4Mw-12'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-table" bindtap="handleProxy" data-eventid="{{'pTh-13'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-eb0870e2 iconfont icon-qingkong" bindtap="handleProxy" data-eventid="{{'KgR-14'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-bold" bindtap="handleProxy" data-eventid="{{'0RU-0'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-italic" bindtap="handleProxy" data-eventid="{{'MgB-1'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-xiahuaxian1" bindtap="handleProxy" data-eventid="{{'Wyt-2'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-underline" bindtap="handleProxy" data-eventid="{{'wca-3'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-strike" bindtap="handleProxy" data-eventid="{{'IRB-4'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-sup" bindtap="handleProxy" data-eventid="{{'N1O-5'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-sub" bindtap="handleProxy" data-eventid="{{'vuM-6'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-alignleft" bindtap="handleProxy" data-eventid="{{'7Gr-7'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-aligncenter" bindtap="handleProxy" data-eventid="{{'RHZ-8'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-alignright" bindtap="handleProxy" data-eventid="{{'IRE-9'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-link" bindtap="handleProxy" data-eventid="{{'y6n-10'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-image" bindtap="handleProxy" data-eventid="{{'TAQ-11'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-code" bindtap="handleProxy" data-eventid="{{'uGi-12'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-table" bindtap="handleProxy" data-eventid="{{'M8u-13'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-eb0870e2 iconfont icon-qingkong" bindtap="handleProxy" data-eventid="{{'cJm-14'}}" data-comkey="{{$k}}"></view>
       </view>
       <view class="_view data-v-eb0870e2 input-content">
-        <textarea auto-height maxlength="-1" value="{{textareaData}}" bindinput="handleProxy" bindblur="handleProxy" data-eventid="{{'gyo-15'}}" data-comkey="{{$k}}" class="_textarea data-v-eb0870e2" />
+        <textarea auto-height maxlength="-1" value="{{textareaData}}" bindinput="handleProxy" bindblur="handleProxy" data-eventid="{{'82t-15'}}" data-comkey="{{$k}}" class="_textarea data-v-eb0870e2" />
       </view>
     </view>
     <view class="_view data-v-eb0870e2 preview" wx:if="{{showPreview && textareaHtml}}">
       <scroll-view scroll-y class="_scroll-view data-v-eb0870e2" style=" {{'height:' + screenHeight / 2.5 + 'px;padding:10px;box-sizing: border-box;'}}">
-        <template bindpreview="handleProxy" bindnavigate="handleProxy" data-eventid="{{'Krw-16'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'9WW-0'],$root}}" is="0e8d7b22"></template>
+        <template bindpreview="handleProxy" bindnavigate="handleProxy" data-eventid="{{'HB9-16'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'XXv-0'],$root}}" is="0e8d7b22"></template>
       </scroll-view>
     </view>
   </view>

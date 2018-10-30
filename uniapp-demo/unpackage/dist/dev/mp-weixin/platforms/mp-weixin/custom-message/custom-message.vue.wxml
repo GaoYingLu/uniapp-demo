@@ -1,7 +1,7 @@
 <import src="/components/page-head.vue.wxml" />
 <template name="6c76f9b6">
   <view class="_view data-v-c6094198">
-    <template data="{{...$root['0'], ...$root[$kk+'uiQ-0'],$root}}" is="4a58128d"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'TVB-0'],$root}}" is="4a58128d"></template>
     <view class="_view data-v-c6094198 page-body">
       <view class="_view data-v-c6094198 page-body-wrapper">
         <text class="_text data-v-c6094198 page-body-title"> 点击气泡icon打开客服消息界面 </text>

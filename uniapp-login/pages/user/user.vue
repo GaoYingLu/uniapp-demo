@@ -1,5 +1,15 @@
 <template>
     <view class="content">
+		<view class="page-body">
+			<view class="page-section">
+				<view class="page-body-info">
+					<view class="page-body-title">用户信息</view>
+					<image class="userinfo-avatar" :src="userInfo.avatar"></image>
+					<text class="userinfo-nickname">{{userInfo.name}}</text>
+				</view>
+				
+			</view>
+		</view>
         <view class="btn-row">
             <button v-if="!userInfo" type="primary" class="primary" @tap="bindLogin">登录</button>
             <button v-else type="default" @tap="bindLogout">退出登录</button>
@@ -23,6 +33,10 @@
 			var userInfo = service.getLoginUser();
 			if (userInfo) {
 				this.$data.userInfo = userInfo;	
+			}else{
+				uni.navigateTo({
+					url: '../login/login',
+				});
 			}
 		},
         computed: {
@@ -49,5 +63,19 @@
 </script>
 
 <style>
+.page-body-info {
+		padding-bottom: 0;
+		height: 460upx;
+	}
 
+	.userinfo-avatar {
+		border-radius: 128upx;
+		width: 128upx;
+		height: 128upx;
+	}
+
+	.userinfo-nickname {
+		margin-top: 20upx;
+		font-size: 38upx;
+	}
 </style>
